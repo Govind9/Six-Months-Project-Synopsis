@@ -1,0 +1,39 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces STMicroelectronics Pvt. Ltd., Greator Noida}}{1}{figure.1.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces BlueFritz USB Bluetooth Adapter}}{5}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Qualcomm Atheros chips}}{5}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Intel Bluetooth Devices}}{7}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Broadcom Blutonium}}{7}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Marvell Bluetooth}}{8}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces 3Com Bluetooth PCMCIA Card}}{9}{figure.2.6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces BLE Device Configuration}}{14}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Broadcasting and Observing Topology}}{15}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Connection Topology}}{16}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Mixed Topology}}{16}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces BLE Architecture}}{17}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Classification based on chip count}}{18}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The 40 physical channels}}{19}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Link Layer Advertising and Scanning}}{21}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Link Layer Advertising Packet types}}{21}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Link Layer connection event}}{22}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces GATT server}}{26}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Bluez the official Bluetooth stack of Linux}}{27}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces The Bluez Stack}}{28}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Stack division}}{29}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces The whole Bluez Stack}}{30}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces BlueNRG SPI Interface}}{31}{figure.3.16}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Pin Diagram}}{32}{figure.3.17}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Pin Desription Table}}{32}{figure.3.18}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces SPI Description}}{33}{figure.3.19}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces BlueNRG Operating Modes}}{35}{figure.3.20}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Operating Modes Table}}{35}{figure.3.21}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Flow Chart}}{36}{figure.3.22}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Raspberry Pi 3}}{44}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces BeagleBone Black}}{45}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Buildroot}}{46}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Source Browsing through Cscope}}{47}{figure.4.4}
+\addvspace {10\p@ }
+\contentsfinish 
