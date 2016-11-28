@@ -108,7 +108,32 @@ cscope was created to search content within C files, but it can also be used (wi
 The driver's job is to send commands from the Bluez stack to the device and get back its response. If all of this happens successfully then that should mean that the BlueNRG is able to communicate with another device using some BLE use cases.\\
 Some of the use cases that can be used to test this are:\\
 \begin{itemize}
-	\item
-	
+	\item \textbf{Checking to see if BLE gets enabled}: This can be done using the following command\\
+		\textbf{sudo hciconfig hci0 lestates}\\
+		This command should return the following output:
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[scale=0.5]{images/lestates.png}
+			\caption{List of LE states supported by adapter}
+		\end{figure}
+	\item \textbf{BLE gatttool interaction}: gatttool is one of the best methods to interact with another BLE device interactively from a Linux host. It opens an interactive session.\\
+		Find out the MAC\_ADDR of the other device using\\
+		\textbf{sudo hcitool lescan}
+		Open interactive session using gatttool:\\
+		\textbf{sudo gatttool -i hci0 -b MAC\_ADDR -I}\\
+		In the interactive sesssion type in the following commands:
+		\textbf{connect}\\
+		Read profiles:
+		\textbf{primary}\\
+		Read all available characterstics:\\
+		\textbf{char-desc}\\
+		Read the value of a characterstic:\\
+        	\textbf{char-read-hnd The\_characterstic\_handle}\\
+    		Write to a particular characterstc:\\
+        	\textbf{char-write-cmd handle Value\_in\_Hex}\\
+    		Disconnect:\\
+        	\textbf{disconnect}\\
+    		Quit:\\
+        	\textbf{quit}\\
 \end{itemize}
 
