@@ -375,7 +375,7 @@ The application controller interface (ACI) uses a standard SPI slave interface a
 	\includegraphics[scale=0.5]{images/spi_table.png}
 	\caption{SPI Description}
 \end{figure}
-All the SPI pins have an internal pull-down except for the CSN that has a pull-up. All the SPI pins, except the CSN, are in high impedance state during the low-power states. The IRQ pin needs a pull-down external resistor.\\
+All the SPI pins have an internal pull-down except for the CSN that has a pull-up. All the SPI pins, except the CSN, are in high impedance state during the low-power states. The IRQ pin needs a pull-down external resistor.
 \subsection{Power Management}
 The device integrates both a low dropout voltage regulator (LDO) and a step-down DC-DC converter, and one of them can be used to power the internal circuitry. However even when the LDO is used, the stringent maximum current requirements, which are advisable when coin cell batteries are used, can be met and further improvements can be obtained with the DC-DC converter at the sole additional cost of an inductor and a capacitor.
 \subsection{Bluetooth Low Energy Radio}
