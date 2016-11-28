@@ -1,3 +1,9 @@
 Change the size of Bluefritz dongle figure
 Add tables
-Change requirement analysis to state the BlueNRG only has the smart features and not the normal features.
+Correct the BLE Architecture pic in chapter three.
+Widen the chip count classification pic.
+Widen the link layer advertising and scanning picture.
+Widen the connection event picture.
+Elongate the GATE server picture.
+Widen the whole Bluez stack picture.
+Remove BLE/BT from the Flow diagram and insert just BLE.
