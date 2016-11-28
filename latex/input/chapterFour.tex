@@ -119,6 +119,11 @@ Some of the use cases that can be used to test this are:\\
 	\item \textbf{BLE gatttool interaction}: gatttool is one of the best methods to interact with another BLE device interactively from a Linux host. It opens an interactive session.\\
 		Find out the MAC\_ADDR of the other device using\\
 		\textbf{sudo hcitool lescan}
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[scale=0.5]{images/lescan.png}
+			\caption{List of LE devices scanned}
+		\end{figure}
 		Open interactive session using gatttool:\\
 		\textbf{sudo gatttool -i hci0 -b MAC\_ADDR -I}\\
 		In the interactive sesssion type in the following commands:
@@ -127,13 +132,49 @@ Some of the use cases that can be used to test this are:\\
 		\textbf{primary}\\
 		Read all available characterstics:\\
 		\textbf{char-desc}\\
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[scale=0.5]{images/gatttool1.png}
+			\caption{GATTtool interaction part-I}
+		\end{figure}
 		Read the value of a characterstic:\\
         	\textbf{char-read-hnd The\_characterstic\_handle}\\
     		Write to a particular characterstc:\\
-        	\textbf{char-write-cmd handle Value\_in\_Hex}\\
+        	\textbf{char-write-cmd handle Value\_in\_Hex
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[scale=0.5]{images/gatttool12.png}
+			\caption{GATTtool interaction part-II}
+		\end{figure}
     		Disconnect:\\
         	\textbf{disconnect}\\
     		Quit:\\
         	\textbf{quit}\\
+	\item \textbf{Reading Beacons using BLE}: There is a python script that can be used for this purpose, install it:\\
+		\textbf{git clone https://github.com/switchdoclabs/BeaconAirPython.git}\\
+		In order to use, the following package must be installed:
+		\textbf{sudo apt-get install python-bluez}\\
+		Scan and Read the beacons:\\
+		\textbf{cd BeanconAirPython/ble}\\
+		\textbf{sudo python testblescan.py}\\
+		This should list out the nearby beacons:
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[scale=0.5]{images/beacon_read.png}
+			\caption{Reading beacons}
+		\end{figure}
+	\item \textbf{Advertising with Beacons}:
+		Start advertising in non-connectable state:\\
+		\textbf{sudo hciconfig hci0 leadv 3}\\
+		\textbf{sudo hciconfig hci0 noscan}\\
+		Broadcast a beacon:
+		\textbf{        python -c 'import sys,uuid;sys.stdout.write(uuid.uuid4().hex)'|xclip -selection clipboard && xclip -selection clipboard -o && echo
+}\\
+		You should see the following as output:\\
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[scale=0.5]{images/advertising_beacons.png}
+			\caption{Advertising using beacons}
+		\end{figure}
 \end{itemize}
 
