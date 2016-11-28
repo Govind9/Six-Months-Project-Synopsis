@@ -109,6 +109,5 @@ The driver's job is to send commands from the Bluez stack to the device and get 
 Some of the use cases that can be used to test this are:\\
 \begin{itemize}
 	\item
-	
 \end{itemize}
 

@@ -51,29 +51,29 @@
 \contentsline {section}{\numberline {3.3}BlueNRG}{28}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}General Description}{29}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Pin Description}{30}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Core, Memory and Peripherals}{32}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Power Management}{33}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Bluetooth Low Energy Radio}{33}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Operating Modes}{33}{subsection.3.3.6}
-\contentsline {section}{\numberline {3.4}How it all ties up togethor}{35}{section.3.4}
-\contentsline {section}{\numberline {3.5}Flow Diagram}{35}{section.3.5}
-\contentsline {chapter}{\numberline {4}Development And Implementation}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Linux Kernel}{37}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}The Linux Device Driver Model}{37}{subsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.1}Overview}{38}{subsubsection.4.1.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.2}Driver Model}{38}{subsubsection.4.1.1.2}
-\contentsline {subsection}{\numberline {4.1.2}Overview of SPI support in Linux}{40}{subsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.2.1}What is SPI?}{40}{subsubsection.4.1.2.1}
-\contentsline {subsubsection}{\numberline {4.1.2.2}Who uses SPI?}{41}{subsubsection.4.1.2.2}
-\contentsline {subsubsection}{\numberline {4.1.2.3}The SPI programming interface}{41}{subsubsection.4.1.2.3}
-\contentsline {section}{\numberline {4.2}The C Programming Language}{42}{section.4.2}
-\contentsline {section}{\numberline {4.3}Development Boards}{43}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Raspberry Pi 3}{43}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}BeagleBone Black}{44}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Tools used}{45}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Buildroot}{45}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Cscope}{46}{subsection.4.4.2}
-\contentsline {chapter}{\numberline {5}Conclusion and Future Scope}{48}{chapter.5}
-\contentsline {section}{\numberline {5.1}Conclusion}{48}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Scope}{49}{section.5.2}
+\contentsline {subsection}{\numberline {3.3.3}Core, Memory and Peripherals}{31}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Power Management}{32}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Bluetooth Low Energy Radio}{32}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Operating Modes}{32}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}How it all ties up togethor}{34}{section.3.4}
+\contentsline {section}{\numberline {3.5}Flow Diagram}{34}{section.3.5}
+\contentsline {chapter}{\numberline {4}Development And Implementation}{36}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Linux Kernel}{36}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}The Linux Device Driver Model}{36}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.1}Overview}{37}{subsubsection.4.1.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.2}Driver Model}{37}{subsubsection.4.1.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Overview of SPI support in Linux}{39}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}What is SPI?}{39}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}Who uses SPI?}{40}{subsubsection.4.1.2.2}
+\contentsline {subsubsection}{\numberline {4.1.2.3}The SPI programming interface}{40}{subsubsection.4.1.2.3}
+\contentsline {section}{\numberline {4.2}The C Programming Language}{41}{section.4.2}
+\contentsline {section}{\numberline {4.3}Development Boards}{42}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Raspberry Pi 3}{42}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}BeagleBone Black}{43}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Tools used}{44}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Buildroot}{44}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Cscope}{45}{subsection.4.4.2}
+\contentsline {chapter}{\numberline {5}Conclusion and Future Scope}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclusion}{47}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Scope}{48}{section.5.2}
 \contentsfinish 

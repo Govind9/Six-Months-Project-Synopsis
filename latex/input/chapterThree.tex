@@ -351,17 +351,13 @@ The external host application processor, where the application resides, is inter
 	\caption{BlueNRG SPI Interface}
 \end{figure}
 \subsection{Pin Description}
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=3.5in, height=3in]{images/pin_diagram.png}
-	\caption{Pin Diagram}
-\end{figure}
-\begin{table}
+\begin{table}[ht]
 	\centering
 	\scalebox{0.5}{
-	\begin{tabular}{|c | c | c | c | c|}
+	\begin{tabular}{|K{5cm} | K{5cm} | K{3cm} | K{2cm} | K{10cm}|}
 		\toprule
-		QFN32 pins & WLCSP pins  & Name & IO & Description \\
+		\rowcolor{Gray}
+		\textbf{QFN32 pins} & \textbf{WLCSP pins}  & \textbf{Name} & \textbf{I/O} & \textbf{Description} \\
 		\hline
 		1 & E2 & SPI\_MOSI & I & SPI\_MOSI \\
 		\hline
@@ -398,7 +394,17 @@ The external host application processor, where the application resides, is inter
 		17 & A6 & FXTAL1 & I & 16/32 MHz crystal\\
 		\hline
 		18 & B6 & FCTAL0 & I & 16/32 MHz crystal\\
-		\hline
+	\bottomrule
+	\end{tabular}}
+	\caption{BlueNRG Pin Description part-I}
+\end{table}
+\begin{table}[ht]
+	\centering
+	\scalebox{0.5}{
+	\begin{tabular}{|K{5cm} | K{5cm} | K{3cm} | K{2cm} | K{10cm}|}
+		\toprule
+		\rowcolor{Gray}
+		\textbf{QFN32 pins} & \textbf{WLCSP pins}  & \textbf{Name} & \textbf{I/O} & \textbf{Description} \\
 		19 & - & VBAT2 & VDD & 2.0-3.6 nattery voltage input\\
 		\hline
 		20 & C6 & RF1 & IO & Antenna + matching circuit\\
@@ -436,13 +442,8 @@ The external host application processor, where the application resides, is inter
 		- & F4 & SMPS-GND & GND & SMPS ground\\
 	\bottomrule
 	\end{tabular}}
-	\caption{The First Table}
+	\caption{BlueNRG Pin Description part-II}
 \end{table}
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=3.5in, height=3in]{images/pin_table1.png}
-	\caption{Pin Desription Table}
-\end{figure}
 \subsection{Core, Memory and Peripherals}
 The device contains an ARM Cortex-M0 microcontroller core that supports ultra-low leakage state retention mode and almost instantaneously returning to fully active mode on critical events. \\
 The memory subsystem consists of 64 KB Flash, and 12 KB RAM , divided in two blocks of 6 KB (RAM1 and RAM2). Flash is used for the M0 program. No RAM or FLASH resources are available to the external microcontroller driving the BlueNRG.\\
@@ -452,11 +453,28 @@ The application controller interface (ACI) uses a standard SPI slave interface a
 	\item 2 data wires with serial shift-out (MOSI and MISO) in full duplex 
 	\item 1 wire to indicate data availability from the slave
 \end{itemize}
-\begin{figure}[ht]
+\begin{table}[ht]
 	\centering
-	\includegraphics[scale=0.5]{images/spi_table.png}
+	\scalebox{0.8}{
+		\begin{tabular}{|c|c|c|c|}
+			\toprule
+			\rowcolor{Gray}
+			\textbf{Name} & \textbf{Direction} &\textbf{Width} &\textbf{Description} \\
+			\hline
+			SPI\_CS & In & 1 & SPI slave select = SPI enable\\
+			\hline
+			SPI\_CCL & In & 1 & SPI clock (max 8MHz)\\
+			\hline
+			SPI\_MOSI & In & 1 & Master output, slave input\\
+			\hline
+			SPI\_MISO & Out & 1 & Master input, slave output\\
+			\hline
+			SPI\_IRQ & Out & 1 & Slave has data for master\\
+			\bottomrule
+		\end{tabular}
+	}
 	\caption{SPI Description}
-\end{figure}
+\end{table}
 All the SPI pins have an internal pull-down except for the CSN that has a pull-up. All the SPI pins, except the CSN, are in high impedance state during the low-power states. The IRQ pin needs a pull-down external resistor.
 \subsection{Power Management}
 The device integrates both a low dropout voltage regulator (LDO) and a step-down DC-DC converter, and one of them can be used to power the internal circuitry. However even when the LDO is used, the stringent maximum current requirements, which are advisable when coin cell batteries are used, can be met and further improvements can be obtained with the DC-DC converter at the sole additional cost of an inductor and a capacitor.
@@ -486,11 +504,30 @@ Radio mode differs from Active mode as also the RF transceiver is active and it 
 	\includegraphics[width=3.5in, height=3in]{images/operating_modes.png}
 	\caption{BlueNRG Operating Modes}
 \end{figure}
-\begin{figure}[ht]
+\begin{table}[ht]
 	\centering
-	\includegraphics[width=3.5in, height=3in]{images/operating_modes_table.png}
-	\caption{Operating Modes Table}
-\end{figure}
+	\scalebox{0.7}{
+		\begin{tabular}{|K{2cm}| K{4cm} | K{2cm}|K{2cm}|K{2cm}|K{2cm}|K{2cm}|K{2cm}|K{2cm}|}
+			\toprule
+			\rowcolor{Gray}
+			\textbf{State} & \textbf{Digital LDO} & \textbf{SPI} & \textbf{LSOSC} & \textbf{HSOSC} & \textbf{Core} & \textbf{RF synt.} & \textbf{RX chain} & \textbf{TX chain} \\
+			\hline
+			Reset & OFF Register contents lost & OFF & OFF & OFF & OFF & OFF & OFF & OFF \\
+			\hline
+			Standby & ON Register contents retained & ON & OFF & OFF & OFF & OFF & OFF & OFF \\
+			\hline
+			Sleep & ON Register contents retained & ON & ON & OFF & OFF & OFF & OFF & OFF \\
+			\hline
+			Active & ON Register contents retained & ON & . & ON & ON & OFF & OFF & OFF \\
+			\hline
+			RX & ON Register contents retained & ON & . & ON & ON & ON & ON & OFF \\
+			\hline
+			TX & ON Register contents retained & ON & . & ON & ON & ON & OFF & ON\\
+			\bottomrule
+		\end{tabular}
+	}
+	\caption{BlueNRG operating modes summary}
+\end{table}
 \section{How it all ties up togethor}
 BlueNRG is a network processor. This means it implement in it, the stack of both the host and the controller. But for the intent of this project, we are interested only in the controller stack of BlueNRG as the host part of the stack will be provided by a Linux host. As is defined in the specification a host and a controller must communicate using the HCI protocol. And Bluez is of course capable of providing this interface to our controller: BlueNRG. Since BlueNRG uses SPI as the transport layer, there is a need to write a SPI driver that can take HCI commands from Bluez stack and send them over to BlueNRG. The response to HCI commands is of course HCI events. These are communicated using the same channels i.e. SPI. \\
 Once this host and controller setup is ready, it is time to communicate with another Bluetooth Low Energy complaint device. The communication between this other device and our host (the Linux machine) will happen through one of many Bluetooth Low Energy profiles in the application layer. The driver and BlueNRG need not concern itself with what these applications are. All it needs to care about is the HCI commands that is going to receive from the host over SPI and sending back appropriate responses for the send commands. This is possible because any operation that is needed to performed by the application will eventually be converted into a HCI command. All of this is taken care of by the Bluez stack between its user-space and then the kernel side components discussed earlier. \\

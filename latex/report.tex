@@ -9,6 +9,10 @@
 \usepackage[Glenn]{fncychap}
 \usepackage{float}
 \usepackage{booktabs}
+\usepackage{array}
+\usepackage{xcolor, colortbl}
+\definecolor{Gray}{gray}{0.85}
+\newcolumntype{K}[1]{>{\centering\arraybackslash}p{#1}}
 \usepackage{placeins}
 \let\Oldsection\section
 \renewcommand{\section}{\FloatBarrier\Oldsection}
