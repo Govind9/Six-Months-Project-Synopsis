@@ -63,7 +63,7 @@ These layers are:
 The host layer and the controller layer communicate with each other using the \textbf{Host Controller Interface} (HCI). This allows great flexibility in having the host and controller on different chips and having different manufactures.
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=3in, height=3.5in]{images/ble_architecture.png}
+	\includegraphics[scale=0.5]{images/ble_architecture.png}
 	\caption{BLE Architecture}
 \end{figure}
 \subsection{Classification of devices based on Chip Count}
@@ -75,7 +75,7 @@ Like devices can be classified on the basis of different compatibility modes, th
 \end{enumerate}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=4.5in, height=3.5in]{images/chip_count.png}
+	\includegraphics[scale=0.5]{images/chip_count.png}
 	\caption{Classification based on chip count}
 \end{figure}
 \subsection{The Protocol Stack}
@@ -124,7 +124,7 @@ The specification defines two basic types of \textbf{scanning procedures}:
 \end{enumerate}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=3.5in, height=3in]{images/advertising_scanning.png}
+	\includegraphics[scale=0.5]{images/advertising_scanning.png}
 	\caption{Link Layer Advertising and Scanning}
 \end{figure}
 \paragraph{Link Layer Advertising Packet types}
@@ -137,7 +137,7 @@ The specification defines two basic types of \textbf{scanning procedures}:
 To establish a connection, a master first starts scanning to look for advertisers that are currently accepting connection requests. A connection is simply a sequence of data exchanges between the slave and the master at predefined times. Shown in Figure, each exchange is called \textbf{connection event}.
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=4.0in, height=3in]{images/connection_event.png}
+	\includegraphics[scale=0.5]{images/connection_event.png}
 	\caption{Link Layer connection event}
 \end{figure}
 \paragraph{Link Layer connection parameters}
@@ -227,7 +227,7 @@ There is no restriction on the number of centrals connected to the number of per
 \textbf{The Generic Attribute Profile} builds on the Attribute Protocol and adds a hierarchy and data abstraction model on top of it. This abstraction is described by the following figure:
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=4in, height=3in]{images/gatt_server.png}
+	\includegraphics[scale=0.5]{images/gatt_server.png}
 	\caption{GATT server}
 \end{figure}
 \paragraph{Attributes in GATT}
@@ -278,7 +278,7 @@ The Bluetooth Stack is divided into three components.
 Another important component is the Host Controller Interface.
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=3.5in, height=3in]{images/bluetooth_stack.png}
+	\includegraphics[scale=0.5]{images/bluetooth_stack.png}
 	\caption{The Bluez Stack}
 \end{figure}
 The whole Bluetooth Stack has been divided into two component stacks in Linux. One portion of the stack is made part of the kernel space. The other portion is available as a separate toolkit for the users in the user-space.
