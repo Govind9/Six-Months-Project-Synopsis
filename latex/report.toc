@@ -30,7 +30,7 @@
 \contentsline {subsubsection}{\numberline {3.1.7.2}Link Layer}{18}{subsubsection.3.1.7.2}
 \contentsline {paragraph}{\numberline {3.1.7.2.1}Link Layer Bluetooth Device Addresse}{18}{paragraph.3.1.7.2.1}
 \contentsline {paragraph}{\numberline {3.1.7.2.2}Link Layer Advertising and Scanning}{19}{paragraph.3.1.7.2.2}
-\contentsline {paragraph}{\numberline {3.1.7.2.3}Link Layer Advertising Packet types}{19}{figure.3.9}
+\contentsline {paragraph}{\numberline {3.1.7.2.3}Link Layer Advertising Packet types}{19}{paragraph.3.1.7.2.3}
 \contentsline {paragraph}{\numberline {3.1.7.2.4}Link Layer Connections}{20}{paragraph.3.1.7.2.4}
 \contentsline {paragraph}{\numberline {3.1.7.2.5}Link Layer connection parameters}{20}{paragraph.3.1.7.2.5}
 \contentsline {subsection}{\numberline {3.1.8}The Host Layer}{20}{subsection.3.1.8}
@@ -74,7 +74,10 @@
 \contentsline {subsection}{\numberline {4.4.1}Buildroot}{44}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Cscope}{45}{subsection.4.4.2}
 \contentsline {section}{\numberline {4.5}Testing}{46}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Checking to see if BLE gets enabled}{47}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}BLE gatttool interaction}{47}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Reading Beacons using BLE}{49}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Advertising with Beacons}{49}{subsection.4.5.4}
 \contentsline {chapter}{\numberline {5}Conclusion and Future Scope}{51}{chapter.5}
 \contentsline {section}{\numberline {5.1}Conclusion}{51}{section.5.1}
 \contentsline {section}{\numberline {5.2}Future Scope}{52}{section.5.2}
-\contentsfinish 

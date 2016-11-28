@@ -1,7 +1,12 @@
 \documentclass[12pt]{report}
 \usepackage[print,nopanel]{pdfscreen}
 \usepackage{lipsum}
-\usepackage{titletoc}
+%\usepackage{titletoc}
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename~\thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+\titlespacing*{name=\chapter,numberless}{0pt}{-30pt}{10pt}
 \usepackage{lastpage}
 \usepackage{macro/macro}
 \usepackage{fancyhdr}
@@ -38,7 +43,7 @@
 \screensize{8cm}{9cm}
 \overlay{overlay8.pdf}
 \usepackage{graphicx}
-%\usepackage{titlesec}
+%\usepackage[compact]{titlesec}
 %\titleformat{\chapter}[display]
 %{\normalfont\huge\bfseries}{\chaptertitlename\\thechapter}{20pt}{\Huge}
 %\titlespacing*{\chapter}{0pt}{0pt}{40pt}

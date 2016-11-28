@@ -30,7 +30,7 @@
 \BOOKMARK [3][]{subsubsection.3.1.7.2}{Link Layer}{subsection.3.1.7}% 30
 \BOOKMARK [4][]{paragraph.3.1.7.2.1}{Link Layer Bluetooth Device Addresse}{subsubsection.3.1.7.2}% 31
 \BOOKMARK [4][]{paragraph.3.1.7.2.2}{Link Layer Advertising and Scanning}{subsubsection.3.1.7.2}% 32
-\BOOKMARK [4][]{figure.3.9}{Link Layer Advertising Packet types}{subsubsection.3.1.7.2}% 33
+\BOOKMARK [4][]{paragraph.3.1.7.2.3}{Link Layer Advertising Packet types}{subsubsection.3.1.7.2}% 33
 \BOOKMARK [4][]{paragraph.3.1.7.2.4}{Link Layer Connections}{subsubsection.3.1.7.2}% 34
 \BOOKMARK [4][]{paragraph.3.1.7.2.5}{Link Layer connection parameters}{subsubsection.3.1.7.2}% 35
 \BOOKMARK [2][]{subsection.3.1.8}{The Host Layer}{section.3.1}% 36
@@ -74,6 +74,10 @@
 \BOOKMARK [2][]{subsection.4.4.1}{Buildroot}{section.4.4}% 74
 \BOOKMARK [2][]{subsection.4.4.2}{Cscope}{section.4.4}% 75
 \BOOKMARK [1][]{section.4.5}{Testing}{chapter.4}% 76
-\BOOKMARK [0][]{chapter.5}{Conclusion and Future Scope}{}% 77
-\BOOKMARK [1][]{section.5.1}{Conclusion}{chapter.5}% 78
-\BOOKMARK [1][]{section.5.2}{Future Scope}{chapter.5}% 79
+\BOOKMARK [2][]{subsection.4.5.1}{Checking to see if BLE gets enabled}{section.4.5}% 77
+\BOOKMARK [2][]{subsection.4.5.2}{BLE gatttool interaction}{section.4.5}% 78
+\BOOKMARK [2][]{subsection.4.5.3}{Reading Beacons using BLE}{section.4.5}% 79
+\BOOKMARK [2][]{subsection.4.5.4}{Advertising with Beacons}{section.4.5}% 80
+\BOOKMARK [0][]{chapter.5}{Conclusion and Future Scope}{}% 81
+\BOOKMARK [1][]{section.5.1}{Conclusion}{chapter.5}% 82
+\BOOKMARK [1][]{section.5.2}{Future Scope}{chapter.5}% 83
