@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  28 NOV 2016 12:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  28 NOV 2016 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -271,54 +271,74 @@ Package: float 1999/05/29 v1.2d Float enhancements (AL)
 \c@float@type=\count108
 \float@box=\box28
 \@floatcapt=\box29
-) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count109
+\@cmidlb=\count110
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count111
+\@lastruleclass=\count112
+\@thisrulewidth=\dimen126
+)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count109
-\Gm@cntv=\count110
-\c@Gm@tempcnt=\count111
-\Gm@bindingoffset=\dimen114
-\Gm@wd@mp=\dimen115
-\Gm@odd@mp=\dimen116
-\Gm@even@mp=\dimen117
-\Gm@layoutwidth=\dimen118
-\Gm@layoutheight=\dimen119
-\Gm@layouthoffset=\dimen120
-\Gm@layoutvoffset=\dimen121
+\Gm@cnth=\count113
+\Gm@cntv=\count114
+\c@Gm@tempcnt=\count115
+\Gm@bindingoffset=\dimen127
+\Gm@wd@mp=\dimen128
+\Gm@odd@mp=\dimen129
+\Gm@even@mp=\dimen130
+\Gm@layoutwidth=\dimen131
+\Gm@layoutheight=\dimen132
+\Gm@layouthoffset=\dimen133
+\Gm@layoutvoffset=\dimen134
 \Gm@dimlist=\toks22
 )
 Excluding 'screen' comment. (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
-\scratchdimen=\dimen122
+\scratchcounter=\count116
+\scratchdimen=\dimen135
 \scratchbox=\box30
-\nofMPsegments=\count113
-\nofMParguments=\count114
+\nofMPsegments=\count117
+\nofMParguments=\count118
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count115
-\MPscratchDim=\dimen123
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen136
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
 \everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -336,7 +356,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 41.
+Package hyperref Info: Link coloring ON on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -344,11 +364,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count118
+\c@section@level=\count122
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
 
 (./report.out) (./report.out)
 \@outlinefile=\write5
@@ -390,17 +410,17 @@ LaTeX Info: Redefining \nameref on input line 41.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./input/titlepage.tex) Excluding 'screen' comment.
-<images/gne.png, id=317, 694.595pt x 723.70375pt>
+<images/gne.png, id=213, 694.595pt x 723.70375pt>
 File: images/gne.png Graphic file (type png)
  <use images/gne.png>
-Package pdftex.def Info: images/gne.png used on input line 49.
+Package pdftex.def Info: images/gne.png used on input line 50.
 (pdftex.def)             Requested size: 111.13747pt x 115.79495pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -461,48 +481,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] (./report.toc [3
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4])
+[2] (./report.toc)
 \tf@toc=\write6
 \openout6 = `report.toc'.
 
+ [3
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5] (./report.lof [6
-
-])
+] (./report.lof)
 \tf@lof=\write7
 \openout7 = `report.lof'.
 
+ [4
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7] (./report.lot)
+] (./report.lot)
 \tf@lot=\write8
 \openout8 = `report.lot'.
 
- [8
+ [5
 
-] (./input/chapterOne.tex
+]
+(./input/chapterOne.tex
 Chapter 1.
-<images/company.jpg, id=507, 515.9275pt x 398.48875pt>
+<images/company.jpg, id=245, 515.9275pt x 398.48875pt>
 File: images/company.jpg Graphic file (type jpg)
 
 <use images/company.jpg>
@@ -541,7 +541,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Chapter 2.
 [3
 
-] <images/bluefritz_usb.png, id=522, 137.7647pt x 96.36pt>
+] <images/bluefritz_usb.png, id=262, 137.7647pt x 96.36pt>
 File: images/bluefritz_usb.png Graphic file (type png)
 
 <use images/bluefritz_usb.png>
@@ -558,7 +558,7 @@ Missing character: There is no   in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
 
-<images/qualcomm_atheros.png, id=523, 374.39874pt x 173.64874pt>
+<images/qualcomm_atheros.png, id=263, 374.39874pt x 173.64874pt>
 File: images/qualcomm_atheros.png Graphic file (type png)
 
 <use images/qualcomm_atheros.png>
@@ -585,7 +585,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/intel_bluetooth.png, id=529, 301.125pt x 206.7725pt>
+<images/intel_bluetooth.png, id=269, 301.125pt x 206.7725pt>
 File: images/intel_bluetooth.png Graphic file (type png)
 
 <use images/intel_bluetooth.png>
@@ -609,7 +609,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/broadcom_blutonium.png, id=535, 401.5pt x 401.5pt>
+<images/broadcom_blutonium.png, id=276, 401.5pt x 401.5pt>
 File: images/broadcom_blutonium.png Graphic file (type png)
 
 <use images/broadcom_blutonium.png>
@@ -633,7 +633,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/marvell_bluetooth.png, id=540, 321.2pt x 262.9825pt>
+<images/marvell_bluetooth.png, id=282, 321.2pt x 262.9825pt>
 File: images/marvell_bluetooth.png Graphic file (type png)
 
 <use images/marvell_bluetooth.png>
@@ -646,7 +646,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/3com_bluetooth.png, id=541, 154.176pt x 108.6459pt>
+<images/3com_bluetooth.png, id=283, 154.176pt x 108.6459pt>
 File: images/3com_bluetooth.png Graphic file (type png)
 
 <use images/3com_bluetooth.png>
@@ -718,7 +718,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11] (./input/chapterThree.tex
 Chapter 3.
-<images/device_configuration.png, id=564, 512.91624pt x 200.75pt>
+<images/device_configuration.png, id=309, 512.91624pt x 200.75pt>
 File: images/device_configuration.png Graphic file (type png)
 
 <use images/device_configuration.png>
@@ -735,7 +735,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/broadcast_topology.png, id=569, 1299.85625pt x 659.46375pt>
+<images/broadcast_topology.png, id=314, 1299.85625pt x 659.46375pt>
 File: images/broadcast_topology.png Graphic file (type png)
 
 <use images/broadcast_topology.png>
@@ -755,7 +755,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.39 \subsubsection
                    {Connections} <./images/device_configuration.png>]
-<images/connected_topology.png, id=579, 1303.87125pt x 658.46pt>
+<images/connected_topology.png, id=326, 1303.87125pt x 658.46pt>
 File: images/connected_topology.png Graphic file (type png)
 
 <use images/connected_topology.png>
@@ -775,7 +775,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.48 \subsubsection
                    {Mixed Topology} <./images/broadcast_topology.png>]
-<images/mixed_topology.png, id=585, 1482.53876pt x 772.8875pt>
+<images/mixed_topology.png, id=334, 1482.53876pt x 772.8875pt>
 File: images/mixed_topology.png Graphic file (type png)
 
 <use images/mixed_topology.png>
@@ -801,7 +801,7 @@ er (name{figure.3.4}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.58 \begin{enumerate}
                        <./images/connected_topology.png> <./images/mixed_topolo
-gy.png>] <images/ble_architecture.png, id=592, 1366.10374pt x 1080.035pt>
+gy.png>] <images/ble_architecture.png, id=343, 1366.10374pt x 1080.035pt>
 File: images/ble_architecture.png Graphic file (type png)
 
 <use images/ble_architecture.png>
@@ -821,14 +821,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.75 \end{enumerate}
                      <./images/ble_architecture.png>]
-<images/chip_count.png, id=604, 1556.81625pt x 704.6325pt>
+<images/chip_count.png, id=355, 1556.81625pt x 704.6325pt>
 File: images/chip_count.png Graphic file (type png)
 
 <use images/chip_count.png>
 Package pdftex.def Info: images/chip_count.png used on input line 78.
 (pdftex.def)             Requested size: 311.35774pt x 140.924pt.
 
-<images/physical_channel.png, id=605, 1556.81625pt x 474.77374pt>
+<images/physical_channel.png, id=356, 1556.81625pt x 474.77374pt>
 File: images/physical_channel.png Graphic file (type png)
 
 <use images/physical_channel.png>
@@ -865,7 +865,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.117 \end{enumerate}
                       <./images/physical_channel.png>]
-<images/advertising_scanning.png, id=626, 1528.71124pt x 741.77126pt>
+<images/advertising_scanning.png, id=378, 1528.71124pt x 741.77126pt>
 File: images/advertising_scanning.png Graphic file (type png)
 
 <use images/advertising_scanning.png>
@@ -873,7 +873,7 @@ Package pdftex.def Info: images/advertising_scanning.png used on input line 127
 .
 (pdftex.def)             Requested size: 305.73683pt x 148.35162pt.
 
-<images/advertising_packet_types.png, id=627, 697.60625pt x 164.615pt>
+<images/advertising_packet_types.png, id=379, 697.60625pt x 164.615pt>
 File: images/advertising_packet_types.png Graphic file (type png)
 
 <use images/advertising_packet_types.png>
@@ -881,12 +881,12 @@ Package pdftex.def Info: images/advertising_packet_types.png used on input line
  133.
 (pdftex.def)             Requested size: 348.80226pt x 82.3073pt.
 
-<images/connection_event.png, id=628, 1325.95375pt x 564.1075pt>
+<images/connection_event.png, id=380, 1325.95375pt x 564.1075pt>
 File: images/connection_event.png Graphic file (type png)
 
 <use images/connection_event.png>
 Package pdftex.def Info: images/connection_event.png used on input line 140.
-(pdftex.def)             Requested size: 265.18605pt x 112.81949pt.
+(pdftex.def)             Requested size: 464.09077pt x 197.44057pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -920,9 +920,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.162 	\item I
-              t also performs \textbf{fragmentation and recombination}, a pr...
- <./images/connection_event.png>]
+l.157 \end{itemize}
+                    <./images/connection_event.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -936,7 +935,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <images/gatt_server.png, id=664, 856.19875pt x 1199.48125pt>
+[22] <images/gatt_server.png, id=418, 856.19875pt x 1199.48125pt>
 File: images/gatt_server.png Graphic file (type png)
 
 <use images/gatt_server.png>
@@ -963,7 +962,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.251 		\begin{enumerate}
                           <./images/gatt_server.png>]
-<images/bluez_intro.png, id=692, 273.02pt x 185.69376pt>
+<images/bluez_intro.png, id=448, 273.02pt x 185.69376pt>
 File: images/bluez_intro.png Graphic file (type png)
 
 <use images/bluez_intro.png>
@@ -983,14 +982,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.271 \subsection
                  {The Bluetooth Stack} <./images/bluez_intro.png>]
-<images/bluetooth_stack.png, id=701, 400.49625pt x 369.38pt>
+<images/bluetooth_stack.png, id=459, 400.49625pt x 369.38pt>
 File: images/bluetooth_stack.png Graphic file (type png)
 
 <use images/bluetooth_stack.png>
 Package pdftex.def Info: images/bluetooth_stack.png used on input line 281.
 (pdftex.def)             Requested size: 200.24763pt x 184.68954pt.
 
-<images/kernel_userspace.png, id=702, 473.77pt x 260.975pt>
+<images/kernel_userspace.png, id=460, 473.77pt x 260.975pt>
 File: images/kernel_userspace.png Graphic file (type png)
 
 <use images/kernel_userspace.png>
@@ -1033,7 +1032,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
-<images/whole_bluez.png, id=715, 1071.00125pt x 508.90125pt>
+<images/whole_bluez.png, id=474, 1071.00125pt x 508.90125pt>
 File: images/whole_bluez.png Graphic file (type png)
 
 <use images/whole_bluez.png>
@@ -1053,7 +1052,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.332 \subsection
                  {General Description} <./images/whole_bluez.png (PNG copy)>]
-<images/bluenrg_spi.png, id=721, 548.0475pt x 573.14125pt>
+<images/bluenrg_spi.png, id=480, 548.0475pt x 573.14125pt>
 File: images/bluenrg_spi.png Graphic file (type png)
 
 <use images/bluenrg_spi.png>
@@ -1066,18 +1065,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29] <images/pin_diagram.png, id=726, 549.05125pt x 329.23pt>
+[29] <images/pin_diagram.png, id=485, 549.05125pt x 329.23pt>
 File: images/pin_diagram.png Graphic file (type png)
 
 <use images/pin_diagram.png>
 Package pdftex.def Info: images/pin_diagram.png used on input line 356.
 (pdftex.def)             Requested size: 252.94363pt x 216.81522pt.
 
-<images/pin_table1.png, id=727, 619.31375pt x 607.26875pt>
+<images/pin_table1.png, id=486, 619.31375pt x 607.26875pt>
 File: images/pin_table1.png Graphic file (type png)
 
 <use images/pin_table1.png>
-Package pdftex.def Info: images/pin_table1.png used on input line 361.
+Package pdftex.def Info: images/pin_table1.png used on input line 443.
 (pdftex.def)             Requested size: 252.94693pt x 216.80968pt.
 
 
@@ -1091,21 +1090,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.364 \subsection
+l.446 \subsection
                  {Core, Memory and Peripherals}pdfTeX warning (ext4): destinati
 on with the same identifier (name{figure.3.17}) has been already used, duplicat
 e ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.364 \subsection
+l.446 \subsection
                  {Core, Memory and Peripherals} <./images/bluenrg_spi.png> <./i
 mages/pin_diagram.png>]
-<images/spi_table.png, id=732, 544.0325pt x 134.5025pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.446 \subsection
+                 {Core, Memory and Peripherals}]
+<images/spi_table.png, id=500, 544.0325pt x 134.5025pt>
 File: images/spi_table.png Graphic file (type png)
 
 <use images/spi_table.png>
-Package pdftex.def Info: images/spi_table.png used on input line 375.
+Package pdftex.def Info: images/spi_table.png used on input line 457.
 (pdftex.def)             Requested size: 272.01558pt x 67.25107pt.
 
 
@@ -1114,34 +1126,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+[32pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.381 \subsection
+l.463 \subsection
                  {Bluetooth Low Energy Radio}pdfTeX warning (ext4): destination
  with the same identifier (name{figure.3.19}) has been already used, duplicate 
 ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.381 \subsection
+l.463 \subsection
                  {Bluetooth Low Energy Radio} <./images/pin_table1.png> <./imag
 es/spi_table.png>]
-<images/operating_modes.png, id=737, 556.0775pt x 380.42125pt>
+<images/operating_modes.png, id=508, 556.0775pt x 380.42125pt>
 File: images/operating_modes.png Graphic file (type png)
 
 <use images/operating_modes.png>
-Package pdftex.def Info: images/operating_modes.png used on input line 404.
+Package pdftex.def Info: images/operating_modes.png used on input line 486.
 (pdftex.def)             Requested size: 252.94777pt x 216.81332pt.
 
-<images/operating_modes_table.png, id=738, 620.3175pt x 408.52625pt>
+<images/operating_modes_table.png, id=509, 620.3175pt x 408.52625pt>
 File: images/operating_modes_table.png Graphic file (type png)
 
 <use images/operating_modes_table.png>
-Package pdftex.def Info: images/operating_modes_table.png used on input line 40
-9.
+Package pdftex.def Info: images/operating_modes_table.png used on input line 49
+1.
 (pdftex.def)             Requested size: 252.94043pt x 216.81085pt.
 
 
@@ -1150,27 +1162,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
-0}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.412 \section
-              {How it all ties up togethor} <./images/operating_modes.png>]
-<images/flow_chart.png, id=747, 597.23125pt x 526.96875pt>
-File: images/flow_chart.png Graphic file (type png)
-
-<use images/flow_chart.png>
-Package pdftex.def Info: images/flow_chart.png used on input line 419.
-(pdftex.def)             Requested size: 252.94963pt x 216.81442pt.
-)
+[33]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1178,12 +1170,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
-1}) has been already used, duplicate ignored
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.81 	\newpage
-               <./images/operating_modes_table.png>] (./input/chapterFour.tex
+l.494 \section
+              {How it all ties up togethor} <./images/operating_modes.png>]
+<images/flow_chart.png, id=522, 597.23125pt x 526.96875pt>
+File: images/flow_chart.png Graphic file (type png)
+
+<use images/flow_chart.png>
+Package pdftex.def Info: images/flow_chart.png used on input line 501.
+(pdftex.def)             Requested size: 298.61488pt x 263.48372pt.
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1191,6 +1190,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [35pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.82 	\newpage
+               <./images/operating_modes_table.png>] (./input/chapterFour.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1198,7 +1210,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 l.1 \chapter
             {Development And Implementation} <./images/flow_chart.png>]
 Chapter 4.
-[36
+[37
 
 ]
 Missing character: There is no Â in font cmr12!
@@ -1262,13 +1274,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [38]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1291,12 +1296,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ² in font cmr12!
- <images/raspberry_pi.png, id=782, 1027.84pt x 1027.84pt>
+ <images/raspberry_pi.png, id=571, 1027.84pt x 1027.84pt>
 File: images/raspberry_pi.png Graphic file (type png)
 
 <use images/raspberry_pi.png>
@@ -1309,7 +1321,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42] <images/beaglebone_black.png, id=787, 457.71pt x 412.54124pt>
+[43] <images/beaglebone_black.png, id=579, 457.71pt x 412.54124pt>
 File: images/beaglebone_black.png Graphic file (type png)
 
 <use images/beaglebone_black.png>
@@ -1322,14 +1334,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.84 \section
              {Tools used} <./images/raspberry_pi.png>]
-<images/buildroot.png, id=792, 668.4975pt x 462.72874pt>
+<images/buildroot.png, id=586, 668.4975pt x 462.72874pt>
 File: images/buildroot.png Graphic file (type png)
 
 <use images/buildroot.png>
@@ -1342,7 +1354,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1353,7 +1365,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/cscope.png, id=797, 540.16237pt x 409.0333pt>
+<images/cscope.png, id=594, 540.16237pt x 409.0333pt>
 File: images/cscope.png Graphic file (type png)
  <use images/cscope.png>
 Package pdftex.def Info: images/cscope.png used on input line 104.
@@ -1365,7 +1377,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1378,15 +1390,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.84 	\newpage
+l.85 	\newpage
                <./images/cscope.png>] (./input/chapterFive.tex
 Chapter 5.
-[47
+[48
 
 ])
 
@@ -1395,28 +1407,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48] AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
+[49] AED: lastpage setting LastPage
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 63AC4F9F2D1D08E97EB9A5581E50AEC2;5761.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: BABD95CD49EF70574864DE40A1FA340A;3957
+(rerunfilecheck)             After:  63AC4F9F2D1D08E97EB9A5581E50AEC2;5761.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 7510 strings out of 493304
- 108045 string characters out of 6139870
- 284753 words of memory out of 5000000
- 10584 multiletter control sequences out of 15000+600000
+ 7541 strings out of 493304
+ 108365 string characters out of 6139870
+ 299421 words of memory out of 5000000
+ 10612 multiletter control sequences out of 15000+600000
  14275 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,12n,43p,1476b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,43p,1476b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
@@ -1425,10 +1443,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (57 pages, 1815879 bytes).
+Output written on report.pdf (55 pages, 1816109 bytes).
 PDF statistics:
- 898 PDF objects out of 1000 (max. 8388607)
- 777 compressed objects within 8 object streams
- 228 named destinations out of 1000 (max. 500000)
- 795 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 700 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
+ 227 named destinations out of 1000 (max. 500000)
+ 587 words of extra memory for PDF output out of 10000 (max. 10000000)
 

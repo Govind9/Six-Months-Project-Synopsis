@@ -137,7 +137,7 @@ The specification defines two basic types of \textbf{scanning procedures}:
 To establish a connection, a master first starts scanning to look for advertisers that are currently accepting connection requests. A connection is simply a sequence of data exchanges between the slave and the master at predefined times. Shown in Figure, each exchange is called \textbf{connection event}.
 \begin{figure}[ht]
 	\centering
-	\includegraphics[scale=0.2]{images/connection_event.png}
+	\includegraphics[scale=0.35]{images/connection_event.png}
 	\caption{Link Layer connection event}
 \end{figure}
 \paragraph{Link Layer connection parameters}
@@ -356,6 +356,88 @@ The external host application processor, where the application resides, is inter
 	\includegraphics[width=3.5in, height=3in]{images/pin_diagram.png}
 	\caption{Pin Diagram}
 \end{figure}
+\begin{table}
+	\centering
+	\scalebox{0.5}{
+	\begin{tabular}{|c | c | c | c | c|}
+		\toprule
+		QFN32 pins & WLCSP pins  & Name & IO & Description \\
+		\hline
+		1 & E2 & SPI\_MOSI & I & SPI\_MOSI \\
+		\hline
+		2 & E1 & SPI\_CLK & I & SPI\_CLK \\
+		\hline
+		3 & D2 & SPI\_IRQ & O & SPI\_IRQ \\
+		\hline
+		4 & D1 & TEST1 & IO & Test pin \\
+		\hline
+		5 & C1 & VBAT3 & VDD & 2.0-3.6 battery voltage input \\
+		\hline
+		6 & C2 & TEST2 & IO & Test pin connected GND \\
+		\hline
+		7 & B1 & TEST3 & IO & Test pin connected GND \\
+		\hline
+		8 & B2 & TEST4 & IO & Test pin connected GND\\
+		\hline
+		9 & A1 & TEST5 & IO & Test pin connected GND\\
+		\hline
+		10 & B3 & TEST6 & IO & Test pin connected GND\\
+		\hline
+		11 & A2 & TEST7 & IO & Test pin connected GND\\
+		\hline
+		12 & A3 & VDD1V8 & O & 1.8 V digital core\\
+		\hline
+		13 & A4 & TEST8 & IO & Test pin not connected\\
+		\hline
+		14 & A5 & TEST9 & IO & Test pin not connected\\
+		\hline
+		15 & B4 & TEST11 & IO & Test pin not connected (QFN32), Test pin connected to GND (WLCSP)\\ 
+		\hline
+		16 & B5 & TEST12 & IO & Test pin not connected (QFN32), Test pin connected to GND (WLCSP) \\
+		\hline
+		17 & A6 & FXTAL1 & I & 16/32 MHz crystal\\
+		\hline
+		18 & B6 & FCTAL0 & I & 16/32 MHz crystal\\
+		\hline
+		19 & - & VBAT2 & VDD & 2.0-3.6 nattery voltage input\\
+		\hline
+		20 & C6 & RF1 & IO & Antenna + matching circuit\\
+		\hline
+		21 & D6 & RF0 & IO & Antenna + matching circuit\\
+		\hline
+		22 & E6 & SXTAL1 & I & 32 KHz crystal\\
+		\hline
+		23 & E5 & SXTAL0 & I & 32 KHz crystal\\
+		\hline
+		24 & D5 & VBAT1 & VDD & 2.0-3.6 battery voltage input\\
+		\hline
+		25 & E4 & RESETN & I & Reset\\
+		\hline
+		26 & F6 & SMPSFILT1 & O &  SMPS output\\
+		\hline
+		27 & - & NO\_SMPS & I & Power management strategy selection\\
+		\hline
+		28 & F5 & SMPSFILT2 & IO & SMPS input-ouput\\
+		\hline
+		29 & F3 & VDD1V2 & O & 1.2 V digital core\\
+		\hline
+		30 & E3 & TEST10 & IO & TEST pin connected to GND\\
+		\hline
+		31 & F2 & SPI\_CS & I & SPI\_CS\\
+		\hline
+		32 & F1 & SPI\_MISO & O & SPI\_MISO\\
+		\hline
+		- & C3 & GND & GND & Ground\\
+		\hline
+		- & D3 & GND & GND & Ground\\
+		\hline
+		- & D4 & GND & GND & Ground\\
+		\hline
+		- & F4 & SMPS-GND & GND & SMPS ground\\
+	\bottomrule
+	\end{tabular}}
+	\caption{The First Table}
+\end{table}
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=3.5in, height=3in]{images/pin_table1.png}
@@ -416,6 +498,6 @@ The follow of control or data is summarized in the following flow diagram.
 \section{Flow Diagram}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=3.5in, height=3in]{images/flow_chart.png}
+	\includegraphics[scale=0.5]{images/flow_chart.png}
 	\caption{Flow Chart}
 \end{figure}
