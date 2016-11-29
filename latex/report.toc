@@ -1,5 +1,5 @@
-\contentsline {chapter}{\numberline {1}INTRODUCTION TO ORGANIZTION}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}INTRODUCTION TO PROJECT}{3}{chapter.2}
+\contentsline {chapter}{\numberline {1}Introduction to Organiztion}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Introduction to Project}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Overview}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Existing Systems}{4}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}BlueFritz USB Bluetooth adapter}{4}{subsection.2.2.1}
@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {2.4.1} Does BlueNRG support what Bluez offers?}{10}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Does Linux supports what BlueNRG uses to communicate through?}{11}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}Obejectives of the Project}{11}{section.2.5}
-\contentsline {chapter}{\numberline {3}PRODUCT DESIGN}{12}{chapter.3}
+\contentsline {chapter}{\numberline {3}Product Design}{12}{chapter.3}
 \contentsline {section}{\numberline {3.1}Bluetooth Low Energy}{12}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Device Configuration}{12}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Limitations}{13}{subsection.3.1.2}
@@ -57,7 +57,7 @@
 \contentsline {subsection}{\numberline {3.3.6}Operating Modes}{32}{subsection.3.3.6}
 \contentsline {section}{\numberline {3.4}How it all ties up togethor}{34}{section.3.4}
 \contentsline {section}{\numberline {3.5}Flow Diagram}{34}{section.3.5}
-\contentsline {chapter}{\numberline {4}Development And Implementation}{36}{chapter.4}
+\contentsline {chapter}{\numberline {4}Development and Implementation}{36}{chapter.4}
 \contentsline {section}{\numberline {4.1}The Linux Kernel}{36}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}The Linux Device Driver Model}{36}{subsection.4.1.1}
 \contentsline {subsubsection}{\numberline {4.1.1.1}Overview}{37}{subsubsection.4.1.1.1}
