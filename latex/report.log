@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.6)  28 NOV 2016 22:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  29 NOV 2016 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -427,14 +427,14 @@ LaTeX Info: Redefining \nameref on input line 51.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 500.484pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
+* v-part:(T,H,B)=(71.13188pt, 681.15898pt, 42.67912pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=500.484pt
-* \textheight=709.61174pt
+* \textheight=681.15898pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=-66.59087pt
+* \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -582,8 +582,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 	\item R
-             ich, balanced portfolio (ASICs, Application-Specific Standard P...
+l.13 	\item D
+             elivering solutions that are key to Smart Driving and Internet ...
 [1
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
@@ -591,8 +591,8 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.14 	\item R
-             ich, balanced portfolio (ASICs, Application-Specific Standard P...
+l.13 	\item D
+             elivering solutions that are key to Smart Driving and Internet ...
  <./images/company.jpg>])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -748,8 +748,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.67 	\item H
-             igh sensitivity (-93 dBm typ.) <./images/3com_bluetooth.png>]
+l.66 	\item C
+             lass 1.5 Transmit Power (+10dBm) <./images/3com_bluetooth.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -757,6 +757,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
 Overfull \hbox (18.91373pt too wide) in paragraph at lines 95--95
  |[]\OT1/cmr/bx/n/14.4 Does Linux sup-ports what Blu-eNRG uses to com-mu-ni-cat
 e through?| 
@@ -765,13 +772,7 @@ e through?|
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10])
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -789,13 +790,7 @@ Package pdftex.def Info: images/device_configuration.png used on input line 12.
 (pdftex.def)             Requested size: 256.45749pt x 100.37474pt.
  [12
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.17 \begin{enumerate}
-                       <./images/device_configuration.png>]
+]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -816,19 +811,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13] <images/connected_topology.png, id=617, 1303.87125pt x 658.46pt>
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.39 \subsubsection
+                   {Connections} <./images/device_configuration.png>]
+<images/connected_topology.png, id=617, 1303.87125pt x 658.46pt>
 File: images/connected_topology.png Graphic file (type png)
 
 <use images/connected_topology.png>
 Package pdftex.def Info: images/connected_topology.png used on input line 45.
 (pdftex.def)             Requested size: 252.93082pt x 216.8102pt.
-
-<images/mixed_topology.png, id=618, 1482.53876pt x 772.8875pt>
-File: images/mixed_topology.png Graphic file (type png)
-
-<use images/mixed_topology.png>
-Package pdftex.def Info: images/mixed_topology.png used on input line 52.
-(pdftex.def)             Requested size: 252.93312pt x 216.80798pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -841,16 +836,35 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.55 \subsection
-                {BLE Architecture}pdfTeX warning (ext4): destination with the s
-ame identifier (name{figure.3.3}) has been already used, duplicate ignored
+l.48 \subsubsection
+                   {Mixed Topology} <./images/broadcast_topology.png>]
+<images/mixed_topology.png, id=623, 1482.53876pt x 772.8875pt>
+File: images/mixed_topology.png Graphic file (type png)
+
+<use images/mixed_topology.png>
+Package pdftex.def Info: images/mixed_topology.png used on input line 52.
+(pdftex.def)             Requested size: 252.93312pt x 216.80798pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.55 \subsection
-                {BLE Architecture} <./images/broadcast_topology.png> <./images/
-connected_topology.png>]
-<images/ble_architecture.png, id=625, 1366.10374pt x 1080.035pt>
+l.58 \begin{enumerate}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.3.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.58 \begin{enumerate}
+                       <./images/connected_topology.png> <./images/mixed_topolo
+gy.png>] <images/ble_architecture.png, id=631, 1366.10374pt x 1080.035pt>
 File: images/ble_architecture.png Graphic file (type png)
 
 <use images/ble_architecture.png>
@@ -863,40 +877,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.69 \subsection
-                {Classification of devices based on Chip Count} <./images/mixed
-_topology.png>] <images/chip_count.png, id=635, 1556.81625pt x 704.6325pt>
+l.75 \end{enumerate}
+                     <./images/ble_architecture.png>]
+<images/chip_count.png, id=643, 1556.81625pt x 704.6325pt>
 File: images/chip_count.png Graphic file (type png)
 
 <use images/chip_count.png>
 Package pdftex.def Info: images/chip_count.png used on input line 78.
 (pdftex.def)             Requested size: 311.35774pt x 140.924pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.83 \begin{enumerate}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{figure.3.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.83 \begin{enumerate}
-                       <./images/ble_architecture.png> <./images/chip_count.png
->] <images/physical_channel.png, id=646, 1556.81625pt x 474.77374pt>
+<images/physical_channel.png, id=644, 1556.81625pt x 474.77374pt>
 File: images/physical_channel.png Graphic file (type png)
 
 <use images/physical_channel.png>
@@ -909,18 +904,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.104 \begin{enumerate}
-                        <./images/physical_channel.png>]
+l.101 \subsubsection
+                    {Link Layer} <./images/chip_count.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/advertising_scanning.png, id=655, 1528.71124pt x 741.77126pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.117 \end{enumerate}
+                      <./images/physical_channel.png>]
+<images/advertising_scanning.png, id=664, 1528.71124pt x 741.77126pt>
 File: images/advertising_scanning.png Graphic file (type png)
 
 <use images/advertising_scanning.png>
@@ -928,7 +936,7 @@ Package pdftex.def Info: images/advertising_scanning.png used on input line 127
 .
 (pdftex.def)             Requested size: 305.73683pt x 148.35162pt.
 
-<images/advertising_packet_types.png, id=656, 697.60625pt x 164.615pt>
+<images/advertising_packet_types.png, id=665, 697.60625pt x 164.615pt>
 File: images/advertising_packet_types.png Graphic file (type png)
 
 <use images/advertising_packet_types.png>
@@ -936,7 +944,7 @@ Package pdftex.def Info: images/advertising_packet_types.png used on input line
  133.
 (pdftex.def)             Requested size: 348.80226pt x 82.3073pt.
 
-<images/connection_event.png, id=657, 1325.95375pt x 564.1075pt>
+<images/connection_event.png, id=666, 1325.95375pt x 564.1075pt>
 File: images/connection_event.png Graphic file (type png)
 
 <use images/connection_event.png>
@@ -949,43 +957,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.146 	\item \textbf
-                    {Connection interval}: The time between the beginnings o...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) 
-has been already used, duplicate ignored
+l.143 \paragraph{Link Layer connection parameters}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.3.9}) has been already used, duplic
+ate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.146 	\item \textbf
-                    {Connection interval}: The time between the beginnings o...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.146 	\item \textbf
-                    {Connection interval}: The time between the beginnings o...
- <./images/advertising_scanning.png> <./images/advertising_packet_types.png> <.
-/images/connection_event.png>]
+l.143 \paragraph{Link Layer connection parameters}
+                                                   <./images/advertising_scanni
+ng.png> <./images/advertising_packet_types.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+0}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.157 \end{itemize}
+                    <./images/connection_event.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -999,7 +998,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <images/gatt_server.png, id=709, 856.19875pt x 1199.48125pt>
+[22] <images/gatt_server.png, id=701, 856.19875pt x 1199.48125pt>
 File: images/gatt_server.png Graphic file (type png)
 
 <use images/gatt_server.png>
@@ -1012,14 +1011,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+[23]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.237 	\item \textbf
-                    {UUID} (16, 4, 2 bytes) <./images/gatt_server.png>]
-<images/bluez_intro.png, id=719, 273.02pt x 185.69376pt>
+l.251 		\begin{enumerate}
+                          <./images/gatt_server.png>]
+<images/bluez_intro.png, id=730, 273.02pt x 185.69376pt>
 File: images/bluez_intro.png Graphic file (type png)
 
 <use images/bluez_intro.png>
@@ -1032,14 +1038,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24] <images/bluetooth_stack.png, id=735, 400.49625pt x 369.38pt>
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.271 \subsection
+                 {The Bluetooth Stack} <./images/bluez_intro.png>]
+<images/bluetooth_stack.png, id=739, 400.49625pt x 369.38pt>
 File: images/bluetooth_stack.png Graphic file (type png)
 
 <use images/bluetooth_stack.png>
 Package pdftex.def Info: images/bluetooth_stack.png used on input line 281.
 (pdftex.def)             Requested size: 200.24763pt x 184.68954pt.
 
-<images/kernel_userspace.png, id=736, 473.77pt x 260.975pt>
+<images/kernel_userspace.png, id=740, 473.77pt x 260.975pt>
 File: images/kernel_userspace.png Graphic file (type png)
 
 <use images/kernel_userspace.png>
@@ -1052,43 +1065,37 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
-2}) has been already used, duplicate ignored
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.292 \begin{itemize}
-                      <./images/bluez_intro.png>]
+l.293 	\item L
+              ow level protocols (L2CAP, RFCOMM, BNEP, HIDP, etc) <./images/blu
+etooth_stack.png (PNG copy)>]
+Overfull \hbox (32.06671pt too wide) in paragraph at lines 302--303
+\OT1/cmr/m/n/12 The source for the user-space side of Blue can be ne ob-tained 
+from \OT1/cmr/bx/n/12 http://www.bluez.org/download/\OT1/cmr/m/n/12 .
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
-3}) has been already used, duplicate ignored
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.299 		\item F
-               or control (MGMT, HCI, BNEP, HIDP)pdfTeX warning (ext4): destina
-tion with the same identifier (name{figure.3.14}) has been already used, duplic
-ate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.299 		\item F
-               or control (MGMT, HCI, BNEP, HIDP) <./images/bluetooth_stack.png
- (PNG copy)> <./images/kernel_userspace.png (PNG copy)>]
-Overfull \hbox (32.06671pt too wide) in paragraph at lines 302--303
-\OT1/cmr/m/n/12 The source for the user-space side of Blue can be ne ob-tained 
-from \OT1/cmr/bx/n/12 http://www.bluez.org/download/\OT1/cmr/m/n/12 .
- []
-
+l.316 	\end{itemize}
+                     <./images/kernel_userspace.png (PNG copy)>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-<images/whole_bluez.png, id=748, 1071.00125pt x 508.90125pt>
+
+<images/whole_bluez.png, id=752, 1071.00125pt x 508.90125pt>
 File: images/whole_bluez.png Graphic file (type png)
 
 <use images/whole_bluez.png>
@@ -1101,14 +1108,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.332 \subsection
-                 {General Description} <./images/whole_bluez.png (PNG copy)>]
-<images/bluenrg_spi.png, id=753, 548.0475pt x 573.14125pt>
+l.332 \subsection{General Description}
+                                       <./images/whole_bluez.png (PNG copy)>]
+<images/bluenrg_spi.png, id=758, 548.0475pt x 573.14125pt>
 File: images/bluenrg_spi.png Graphic file (type png)
 
 <use images/bluenrg_spi.png>
@@ -1121,14 +1128,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28]
+[29]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+[30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1148,7 +1155,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}
+[31pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1162,7 +1169,7 @@ nored
                                                   \fi \fi 
 l.481 \subsection
                  {Bluetooth Low Energy Radio}]
-<images/operating_modes.png, id=767, 556.0775pt x 380.42125pt>
+<images/operating_modes.png, id=771, 556.0775pt x 380.42125pt>
 File: images/operating_modes.png Graphic file (type png)
 
 <use images/operating_modes.png>
@@ -1175,27 +1182,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]
+[32]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.535 \section
-              {Flow Diagram}pdfTeX warning (ext4): destination with the same id
-entifier (name{table.3.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.535 \section
-              {Flow Diagram} <./images/operating_modes.png>]
-<images/flow_chart.png, id=776, 597.23125pt x 526.96875pt>
+l.531 \section
+              {How it all ties up togethor} <./images/operating_modes.png>]
+<images/flow_chart.png, id=780, 597.23125pt x 526.96875pt>
 File: images/flow_chart.png Graphic file (type png)
 
 <use images/flow_chart.png>
@@ -1208,14 +1209,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33] (./input/chapterFour.tex
+[34pdfTeX warning (ext4): destination with the same identifier (name{table.3.4}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.91 	\newpage
+              ] (./input/chapterFour.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+[35pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1223,7 +1230,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 l.1 \chapter
             {Development And Implementation} <./images/flow_chart.png>]
 Chapter 4.
-[35
+[36
 
 ]
 Missing character: There is no Â in font cmr12!
@@ -1287,13 +1294,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [37]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1316,12 +1316,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ² in font cmr12!
- <images/raspberry_pi.png, id=811, 1027.84pt x 1027.84pt>
+ <images/raspberry_pi.png, id=815, 1027.84pt x 1027.84pt>
 File: images/raspberry_pi.png Graphic file (type png)
 
 <use images/raspberry_pi.png>
@@ -1334,7 +1341,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41] <images/beaglebone_black.png, id=816, 457.71pt x 412.54124pt>
+[42] <images/beaglebone_black.png, id=821, 457.71pt x 412.54124pt>
 File: images/beaglebone_black.png Graphic file (type png)
 
 <use images/beaglebone_black.png>
@@ -1347,14 +1354,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.84 \section
              {Tools used} <./images/raspberry_pi.png>]
-<images/buildroot.png, id=822, 668.4975pt x 462.72874pt>
+<images/buildroot.png, id=826, 668.4975pt x 462.72874pt>
 File: images/buildroot.png Graphic file (type png)
 
 <use images/buildroot.png>
@@ -1367,7 +1374,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+[44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1378,7 +1385,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/cscope.png, id=827, 540.16237pt x 409.0333pt>
+<images/cscope.png, id=831, 540.16237pt x 409.0333pt>
 File: images/cscope.png Graphic file (type png)
  <use images/cscope.png>
 Package pdftex.def Info: images/cscope.png used on input line 104.
@@ -1390,67 +1397,66 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.107 \section
               {Testing} <./images/buildroot.png>]
-<images/lestates.png, id=832, 732.48656pt x 484.05844pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.114 		\item T
+               his command should return the following output: <./images/cscope
+.png>] <images/lestates.png, id=841, 732.48656pt x 484.05844pt>
 File: images/lestates.png Graphic file (type png)
 
 <use images/lestates.png>
 Package pdftex.def Info: images/lestates.png used on input line 117.
 (pdftex.def)             Requested size: 366.24237pt x 242.02863pt.
 
+<images/lescan.png, id=842, 316.18124pt x 140.02313pt>
+File: images/lescan.png Graphic file (type png)
+ <use images/lescan.png>
+Package pdftex.def Info: images/lescan.png used on input line 128.
+(pdftex.def)             Requested size: 158.09023pt x 70.01138pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.120 	\end{enumerate}
-                       <./images/cscope.png>]
-<images/lescan.png, id=838, 316.18124pt x 140.02313pt>
-File: images/lescan.png Graphic file (type png)
- <use images/lescan.png>
-Package pdftex.def Info: images/lescan.png used on input line 128.
-(pdftex.def)             Requested size: 158.09023pt x 70.01138pt.
+l.135 		\item R
+               ead profiles:\\pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.4.6}) has been already used, duplicate ignored
 
-<images/gatttool1.png, id=839, 663.22781pt x 624.08156pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.135 		\item R
+               ead profiles:\\ <./images/lestates.png> <./images/lescan.png>]
+<images/gatttool1.png, id=853, 663.22781pt x 624.08156pt>
 File: images/gatttool1.png Graphic file (type png)
 
 <use images/gatttool1.png>
 Package pdftex.def Info: images/gatttool1.png used on input line 141.
 (pdftex.def)             Requested size: 331.6131pt x 312.04001pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[46pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.144 		\item R
-               ead the value of a characterstic:\\pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.4.6}) has been already used, duplic
-ate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.144 		\item R
-               ead the value of a characterstic:\\ <./images/lestates.png> <./i
-mages/lescan.png>] <images/gatttool2.png, id=852, 523.20468pt x 129.48375pt>
+<images/gatttool2.png, id=854, 523.20468pt x 129.48375pt>
 File: images/gatttool2.png Graphic file (type png)
 
 <use images/gatttool2.png>
@@ -1463,29 +1469,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.162 		\item I
-               n order to use, the following package must be installed:pdfTeX w
-arning (ext4): destination with the same identifier (name{figure.4.8}) has been
- already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.162 		\item I
-               n order to use, the following package must be installed: <./imag
-es/gatttool1.png> <./images/gatttool2.png>]
-<images/beacon_read.png, id=864, 551.81157pt x 213.04594pt>
+l.158 \subsection
+                 {Reading Beacons using BLE} <./images/gatttool1.png>]
+<images/beacon_read.png, id=867, 551.81157pt x 213.04594pt>
 File: images/beacon_read.png Graphic file (type png)
 
 <use images/beacon_read.png>
 Package pdftex.def Info: images/beacon_read.png used on input line 170.
 (pdftex.def)             Requested size: 275.9051pt x 106.5227pt.
 
-<images/advertising_beacons.png, id=865, 580.41844pt x 243.15843pt>
+<images/advertising_beacons.png, id=868, 580.41844pt x 243.15843pt>
 File: images/advertising_beacons.png Graphic file (type png)
 
 <use images/advertising_beacons.png>
@@ -1499,20 +1497,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
+[49pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.94 	\newpage
-               <./images/beacon_read.png>] (./input/chapterFive.tex
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.4.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.94 	\newpage
+               <./images/gatttool2.png> <./images/beacon_read.png>]
+(./input/chapterFive.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[50pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1520,7 +1525,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 l.1 \chapter
             {Conclusion and Future Scope} <./images/advertising_beacons.png>]
 Chapter 5.
-[50
+[51
 
 ])
 
@@ -1529,28 +1534,40 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51] AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
- (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: D7EEDE76C80B6F346C787D40C942BA83;6143.
+[52] (./input/references.tex
+Chapter 6.
+[53
 
+]) AED: lastpage setting LastPage [54
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+ (./report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: D7EEDE76C80B6F346C787D40C942BA83;6143
+(rerunfilecheck)             After:  3D8B494DE00EF4E7205FA1A66CABDEB7;6188.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 8279 strings out of 493304
- 117464 string characters out of 6139872
- 324289 words of memory out of 5000000
- 11299 multiletter control sequences out of 15000+600000
+ 8294 strings out of 493304
+ 117696 string characters out of 6139870
+ 324288 words of memory out of 5000000
+ 11303 multiletter control sequences out of 15000+600000
  14275 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,13n,43p,1476b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,13n,43p,1476b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
@@ -1559,10 +1576,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (60 pages, 1978294 bytes).
+Output written on report.pdf (63 pages, 1985474 bytes).
 PDF statistics:
- 981 PDF objects out of 1000 (max. 8388607)
- 848 compressed objects within 9 object streams
- 260 named destinations out of 1000 (max. 500000)
+ 1000 PDF objects out of 1000 (max. 8388607)
+ 864 compressed objects within 9 object streams
+ 268 named destinations out of 1000 (max. 500000)
  845 words of extra memory for PDF output out of 10000 (max. 10000000)
 
