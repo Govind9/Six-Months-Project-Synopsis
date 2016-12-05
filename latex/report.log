@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.6)  1 DEC 2016 20:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.6)  5 DEC 2016 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,11 +441,11 @@ LaTeX Info: Redefining \nameref on input line 37.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./input/titlepage.tex) Excluding 'screen' comment.
-<images/gne.png, id=337, 694.595pt x 723.70375pt>
+<images/gne.png, id=337, 618.31pt x 678.535pt>
 File: images/gne.png Graphic file (type png)
  <use images/gne.png>
 Package pdftex.def Info: images/gne.png used on input line 45.
-(pdftex.def)             Requested size: 111.13747pt x 115.79495pt.
+(pdftex.def)             Requested size: 98.93161pt x 108.56781pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1550,7 +1550,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (62 pages, 1980237 bytes).
+Output written on report.pdf (62 pages, 2270235 bytes).
 PDF statistics:
  995 PDF objects out of 1000 (max. 8388607)
  860 compressed objects within 9 object streams

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.6)  5 DEC 2016 18:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.6)  5 DEC 2016 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,11 +441,11 @@ LaTeX Info: Redefining \nameref on input line 37.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./input/titlepage.tex) Excluding 'screen' comment.
-<images/gne.png, id=301, 694.595pt x 723.70375pt>
+<images/gne.png, id=265, 618.31pt x 678.535pt>
 File: images/gne.png Graphic file (type png)
  <use images/gne.png>
 Package pdftex.def Info: images/gne.png used on input line 45.
-(pdftex.def)             Requested size: 111.13747pt x 115.79495pt.
+(pdftex.def)             Requested size: 98.93161pt x 108.56781pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -514,14 +514,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2] (./midtermreport.toc [3
 
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4])
+])
 \tf@toc=\write6
 \openout6 = `midtermreport.toc'.
 
@@ -532,21 +525,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5] (./midtermreport.lof)
+[4] (./midtermreport.lof)
 \tf@lof=\write7
 \openout7 = `midtermreport.lof'.
 
- [6
+ [5
 
 ] (./midtermreport.lot)
 \tf@lot=\write8
 \openout8 = `midtermreport.lot'.
 
- [7
+ [6
 
 ] (./input/chapterOne.tex
 Chapter 1.
-<images/company.jpg, id=481, 515.9275pt x 398.48875pt>
+<images/company.jpg, id=418, 515.9275pt x 398.48875pt>
 File: images/company.jpg Graphic file (type jpg)
 
 <use images/company.jpg>
@@ -583,7 +576,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Chapter 2.
 [3
 
-] <images/bluefritz_usb.png, id=495, 137.7647pt x 96.36pt>
+] <images/bluefritz_usb.png, id=432, 137.7647pt x 96.36pt>
 File: images/bluefritz_usb.png Graphic file (type png)
 
 <use images/bluefritz_usb.png>
@@ -600,7 +593,7 @@ Missing character: There is no   in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
 
-<images/qualcomm_atheros.png, id=496, 374.39874pt x 173.64874pt>
+<images/qualcomm_atheros.png, id=433, 374.39874pt x 173.64874pt>
 File: images/qualcomm_atheros.png Graphic file (type png)
 
 <use images/qualcomm_atheros.png>
@@ -627,7 +620,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/intel_bluetooth.png, id=501, 301.125pt x 206.7725pt>
+<images/intel_bluetooth.png, id=438, 301.125pt x 206.7725pt>
 File: images/intel_bluetooth.png Graphic file (type png)
 
 <use images/intel_bluetooth.png>
@@ -651,7 +644,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/broadcom_blutonium.png, id=509, 401.5pt x 401.5pt>
+<images/broadcom_blutonium.png, id=444, 401.5pt x 401.5pt>
 File: images/broadcom_blutonium.png Graphic file (type png)
 
 <use images/broadcom_blutonium.png>
@@ -682,7 +675,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/marvell_bluetooth.png, id=515, 321.2pt x 262.9825pt>
+<images/marvell_bluetooth.png, id=451, 321.2pt x 262.9825pt>
 File: images/marvell_bluetooth.png Graphic file (type png)
 
 <use images/marvell_bluetooth.png>
@@ -695,7 +688,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/3com_bluetooth.png, id=516, 154.176pt x 108.6459pt>
+<images/3com_bluetooth.png, id=452, 154.176pt x 108.6459pt>
 File: images/3com_bluetooth.png Graphic file (type png)
 
 <use images/3com_bluetooth.png>
@@ -759,7 +752,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11] (./input/mid_chapterThree.tex
 Chapter 3.
-<images/device_configuration.png, id=538, 512.91624pt x 200.75pt>
+<images/device_configuration.png, id=473, 512.91624pt x 200.75pt>
 File: images/device_configuration.png Graphic file (type png)
 
 <use images/device_configuration.png>
@@ -782,21 +775,21 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/broadcast_topology.png, id=544, 1299.85625pt x 659.46375pt>
+<images/broadcast_topology.png, id=481, 1299.85625pt x 659.46375pt>
 File: images/broadcast_topology.png Graphic file (type png)
 
 <use images/broadcast_topology.png>
 Package pdftex.def Info: images/broadcast_topology.png used on input line 36.
 (pdftex.def)             Requested size: 252.94534pt x 216.80864pt.
 
-<images/connected_topology.png, id=545, 1303.87125pt x 658.46pt>
+<images/connected_topology.png, id=482, 1303.87125pt x 658.46pt>
 File: images/connected_topology.png Graphic file (type png)
 
 <use images/connected_topology.png>
 Package pdftex.def Info: images/connected_topology.png used on input line 45.
 (pdftex.def)             Requested size: 252.93082pt x 216.8102pt.
 
-<images/mixed_topology.png, id=546, 1482.53876pt x 772.8875pt>
+<images/mixed_topology.png, id=483, 1482.53876pt x 772.8875pt>
 File: images/mixed_topology.png Graphic file (type png)
 
 <use images/mixed_topology.png>
@@ -843,7 +836,7 @@ ame identifier (name{figure.3.4}) has been already used, duplicate ignored
 l.55 \subsection
                 {BLE Architecture} <./images/connected_topology.png> <./images/
 mixed_topology.png>]
-<images/ble_architecture.png, id=566, 1366.10374pt x 1080.035pt>
+<images/ble_architecture.png, id=503, 1366.10374pt x 1080.035pt>
 File: images/ble_architecture.png Graphic file (type png)
 
 <use images/ble_architecture.png>
@@ -865,14 +858,14 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.75 \end{enumerate}
                      <./images/ble_architecture.png>]
-<images/chip_count.png, id=577, 1556.81625pt x 704.6325pt>
+<images/chip_count.png, id=514, 1556.81625pt x 704.6325pt>
 File: images/chip_count.png Graphic file (type png)
 
 <use images/chip_count.png>
 Package pdftex.def Info: images/chip_count.png used on input line 78.
 (pdftex.def)             Requested size: 311.35774pt x 140.924pt.
 
-<images/physical_channel.png, id=578, 1556.81625pt x 474.77374pt>
+<images/physical_channel.png, id=515, 1556.81625pt x 474.77374pt>
 File: images/physical_channel.png Graphic file (type png)
 
 <use images/physical_channel.png>
@@ -909,7 +902,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.117 \end{enumerate}
                       <./images/physical_channel.png>]
-<images/advertising_scanning.png, id=599, 1528.71124pt x 741.77126pt>
+<images/advertising_scanning.png, id=536, 1528.71124pt x 741.77126pt>
 File: images/advertising_scanning.png Graphic file (type png)
 
 <use images/advertising_scanning.png>
@@ -917,7 +910,7 @@ Package pdftex.def Info: images/advertising_scanning.png used on input line 127
 .
 (pdftex.def)             Requested size: 305.73683pt x 148.35162pt.
 
-<images/advertising_packet_types.png, id=600, 697.60625pt x 164.615pt>
+<images/advertising_packet_types.png, id=537, 697.60625pt x 164.615pt>
 File: images/advertising_packet_types.png Graphic file (type png)
 
 <use images/advertising_packet_types.png>
@@ -925,7 +918,7 @@ Package pdftex.def Info: images/advertising_packet_types.png used on input line
  133.
 (pdftex.def)             Requested size: 348.80226pt x 82.3073pt.
 
-<images/connection_event.png, id=601, 1325.95375pt x 564.1075pt>
+<images/connection_event.png, id=538, 1325.95375pt x 564.1075pt>
 File: images/connection_event.png Graphic file (type png)
 
 <use images/connection_event.png>
@@ -979,7 +972,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <images/gatt_server.png, id=637, 856.19875pt x 1199.48125pt>
+[22] <images/gatt_server.png, id=574, 856.19875pt x 1199.48125pt>
 File: images/gatt_server.png Graphic file (type png)
 
 <use images/gatt_server.png>
@@ -1006,7 +999,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.251 		\begin{enumerate}
                           <./images/gatt_server.png>]
-<images/bluez_intro.png, id=666, 273.02pt x 185.69376pt>
+<images/bluez_intro.png, id=603, 273.02pt x 185.69376pt>
 File: images/bluez_intro.png Graphic file (type png)
 
 <use images/bluez_intro.png>
@@ -1026,14 +1019,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.271 \subsection
                  {The Bluetooth Stack} <./images/bluez_intro.png>]
-<images/bluetooth_stack.png, id=675, 400.49625pt x 369.38pt>
+<images/bluetooth_stack.png, id=612, 400.49625pt x 369.38pt>
 File: images/bluetooth_stack.png Graphic file (type png)
 
 <use images/bluetooth_stack.png>
 Package pdftex.def Info: images/bluetooth_stack.png used on input line 281.
 (pdftex.def)             Requested size: 200.24763pt x 184.68954pt.
 
-<images/kernel_userspace.png, id=676, 473.77pt x 260.975pt>
+<images/kernel_userspace.png, id=613, 473.77pt x 260.975pt>
 File: images/kernel_userspace.png Graphic file (type png)
 
 <use images/kernel_userspace.png>
@@ -1076,7 +1069,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
-<images/whole_bluez.png, id=688, 1071.00125pt x 508.90125pt>
+<images/whole_bluez.png, id=625, 1071.00125pt x 508.90125pt>
 File: images/whole_bluez.png Graphic file (type png)
 
 <use images/whole_bluez.png>
@@ -1190,14 +1183,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34] <images/beaglebone_black.png, id=719, 457.71pt x 412.54124pt>
+[34] <images/beaglebone_black.png, id=655, 457.71pt x 412.54124pt>
 File: images/beaglebone_black.png Graphic file (type png)
 
 <use images/beaglebone_black.png>
 Package pdftex.def Info: images/beaglebone_black.png used on input line 83.
 (pdftex.def)             Requested size: 252.94254pt x 216.81401pt.
 
-<images/buildroot.png, id=720, 668.4975pt x 462.72874pt>
+<images/buildroot.png, id=656, 668.4975pt x 462.72874pt>
 File: images/buildroot.png Graphic file (type png)
 
 <use images/buildroot.png>
@@ -1227,7 +1220,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- <images/cscope.png, id=730, 540.16237pt x 409.0333pt>
+ <images/cscope.png, id=666, 540.16237pt x 409.0333pt>
 File: images/cscope.png Graphic file (type png)
 
 <use images/cscope.png>
@@ -1268,88 +1261,30 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (./midtermreport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
-
-
-Package rerunfilecheck Warning: File `midtermreport.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `midtermreport.out':
-(rerunfilecheck)             Before: 93310E7C1C0C48C4FF5B39A2F2A32C9B;5507
-(rerunfilecheck)             After:  8B39533636847FB5FCAF11B57ED66557;4886.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `midtermreport.out' has not changed.
+(rerunfilecheck)             Checksum: 8B39533636847FB5FCAF11B57ED66557;4886.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 8008 strings out of 493304
- 113552 string characters out of 6139872
- 296902 words of memory out of 5000000
- 11086 multiletter control sequences out of 15000+600000
+ 7982 strings out of 493304
+ 113199 string characters out of 6139872
+ 295899 words of memory out of 5000000
+ 11077 multiletter control sequences out of 15000+600000
  14275 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,12n,43p,1483b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.3.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.3.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{table.3.2} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{table.3.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.18} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.17} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.16} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
-, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmti12.pfb>
-Output written on midtermreport.pdf (47 pages, 1467903 bytes).
+ 36i,11n,43p,1483b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb>
+Output written on midtermreport.pdf (46 pages, 1749716 bytes).
 PDF statistics:
- 823 PDF objects out of 1000 (max. 8388607)
- 720 compressed objects within 8 object streams
- 215 named destinations out of 1000 (max. 500000)
- 723 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 756 PDF objects out of 1000 (max. 8388607)
+ 655 compressed objects within 7 object streams
+ 198 named destinations out of 1000 (max. 500000)
+ 651 words of extra memory for PDF output out of 10000 (max. 10000000)
 
