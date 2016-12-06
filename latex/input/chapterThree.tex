@@ -1,4 +1,6 @@
 \chapter{Product Design}
+\section{Product Functions}
+When complete the device driver should be able to fully facilitate a communication between the host and the controller. This means that all the features supported by BlueNRG must function depending on how the user is willing to use them through the host. To learn more about the functionality offered by BlueNRG, one needs to go through BLE, what is is and what it has to offer. The subsequent sections of the report present a detailed case of the same.
 \section{Bluetooth Low Energy}
 Bluetooth low energy (\textbf{BLE}, marketed as \textbf{Bluetooth Smart}) is a wireless personal area network technology designed and marketed by the \textbf{Bluetooth Special Interest Group aimed} at novel applications in the healthcare, fitness, beacons, security, and home entertainment industries. \\
 It is part of the Bluetooth \textbf{4.0 specification}. It aims at being a low energy, low cost, low bandwidth, low power and low complexity extensible framework for exchanging data pertaining to various applications fields. 
@@ -258,6 +260,15 @@ An attribute can be seen as the basic unit of data in a GATT server. An attribut
 			\item Characteristic Value Indication
 		\end{enumerate}
 \end{itemize}
+\section{Assumptions and Dependencies}
+In order for this project i.e. device driver for BlueNRG to work, the following dependencies are assumed:
+\begin{itemize}
+	\item A SoC system running on \textbf{Linux}.
+	\item A SoC system having \textbf{SPI} support.
+	\item \textbf{Bluez} on the system for testing and command line interaction.
+	\item \textbf{BlueNRG} to be connected and used with the system via SPI.
+\end{itemize}
+The above mentioned dependencies are discussed in depth in the coming sections and chapters.
 \section{Bluez The official Linux Bluetooth stack}
 \textbf{BlueZ} is the official Linux Bluetooth protocol stack. It is an Open Source project distributed under the GNU General Public License (GPL). BlueZ kernel is part of the official Linux kernel since version 2.4.6.
 \begin{figure}[ht]
@@ -528,7 +539,7 @@ Radio mode differs from Active mode as also the RF transceiver is active and it 
 	}
 	\caption{BlueNRG operating modes summary}
 \end{table}
-\section{How it all ties up togethor}
+\section{Product Perspective}
 BlueNRG is a network processor. This means it implement in it, the stack of both the host and the controller. But for the intent of this project, we are interested only in the controller stack of BlueNRG as the host part of the stack will be provided by a Linux host. As is defined in the specification a host and a controller must communicate using the HCI protocol. And Bluez is of course capable of providing this interface to our controller: BlueNRG. Since BlueNRG uses SPI as the transport layer, there is a need to write a SPI driver that can take HCI commands from Bluez stack and send them over to BlueNRG. The response to HCI commands is of course HCI events. These are communicated using the same channels i.e. SPI. \\
 Once this host and controller setup is ready, it is time to communicate with another Bluetooth Low Energy complaint device. The communication between this other device and our host (the Linux machine) will happen through one of many Bluetooth Low Energy profiles in the application layer. The driver and BlueNRG need not concern itself with what these applications are. All it needs to care about is the HCI commands that is going to receive from the host over SPI and sending back appropriate responses for the send commands. This is possible because any operation that is needed to performed by the application will eventually be converted into a HCI command. All of this is taken care of by the Bluez stack between its user-space and then the kernel side components discussed earlier. \\
 The follow of control or data is summarized in the following flow diagram.
