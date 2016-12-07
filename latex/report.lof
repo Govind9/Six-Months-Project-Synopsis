@@ -10,32 +10,32 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces BLE Device Configuration}}{12}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Broadcasting and Observing Topology}}{14}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Connection Topology}}{15}{figure.3.3}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Connection Topology}}{14}{figure.3.3}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Mixed Topology}}{15}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces BLE Architecture}}{16}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Classification based on chip count}}{17}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces The 40 physical channels}}{18}{figure.3.7}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Classification based on chip count}}{16}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The 40 physical channels}}{17}{figure.3.7}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Link Layer Advertising and Scanning}}{19}{figure.3.8}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Link Layer Advertising Packet types}}{19}{figure.3.9}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Link Layer connection event}}{20}{figure.3.10}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces GATT server}}{24}{figure.3.11}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Bluez the official Bluetooth stack of Linux}}{26}{figure.3.12}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces The Bluez Stack}}{27}{figure.3.13}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces GATT server}}{23}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Bluez the official Bluetooth stack of Linux}}{25}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces The Bluez Stack}}{26}{figure.3.13}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Stack division}}{27}{figure.3.14}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces The whole Bluez Stack}}{29}{figure.3.15}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces BlueNRG SPI Interface}}{30}{figure.3.16}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces BlueNRG Operating Modes}}{34}{figure.3.17}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Flow Chart}}{35}{figure.3.18}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces The whole Bluez Stack}}{28}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces BlueNRG SPI Interface}}{29}{figure.3.16}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces BlueNRG Operating Modes}}{33}{figure.3.17}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Flow Chart}}{34}{figure.3.18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Raspberry Pi 3}}{43}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces BeagleBone Black}}{44}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Buildroot}}{45}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Source Browsing through Cscope}}{46}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces List of LE states supported by adapter}}{47}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces List of LE devices scanned}}{47}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces GATTtool interaction part-I}}{48}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces GATTtool interaction part-II}}{49}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Reading beacons}}{49}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Advertising using beacons}}{50}{figure.4.10}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Raspberry Pi 3}}{42}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces BeagleBone Black}}{43}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Buildroot}}{44}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Source Browsing through Cscope}}{45}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces List of LE states supported by adapter}}{46}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces List of LE devices scanned}}{46}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces GATTtool interaction part-I}}{47}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces GATTtool interaction part-II}}{48}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Reading beacons}}{48}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Advertising using beacons}}{49}{figure.4.10}
 \addvspace {10\p@ }
 \contentsfinish 
