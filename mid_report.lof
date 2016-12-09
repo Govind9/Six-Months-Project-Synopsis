@@ -10,18 +10,18 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces BLE Device Configuration}}{12}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Broadcasting and Observing Topology}}{14}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Connection Topology}}{15}{figure.3.3}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Connection Topology}}{14}{figure.3.3}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Mixed Topology}}{15}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces BLE Architecture}}{16}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Classification based on chip count}}{17}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces The 40 physical channels}}{18}{figure.3.7}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Classification based on chip count}}{16}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The 40 physical channels}}{17}{figure.3.7}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Link Layer Advertising and Scanning}}{19}{figure.3.8}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Link Layer Advertising Packet types}}{19}{figure.3.9}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Link Layer connection event}}{20}{figure.3.10}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces GATT server}}{24}{figure.3.11}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces GATT server}}{23}{figure.3.11}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Bluez the official Bluetooth stack of Linux}}{25}{figure.3.12}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces The Bluez Stack}}{26}{figure.3.13}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Stack division}}{27}{figure.3.14}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Stack division}}{26}{figure.3.14}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces The whole Bluez Stack}}{28}{figure.3.15}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces BeagleBone Black}}{35}{figure.4.1}
