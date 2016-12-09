@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 14:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -367,7 +367,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen136
 \Gm@dimlist=\toks24
 )
-Excluding 'screen' comment. (output/report//report.aux)
+Excluding 'screen' comment. (../output/report//report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -428,7 +428,7 @@ LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
 
-(output/report//report.out) (output/report//report.out)
+(../output/report//report.out) (../output/report//report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
@@ -539,7 +539,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] (output/report//report.toc [3
+[2] (../output/report//report.toc [3
 
 ])
 \tf@toc=\write6
@@ -552,7 +552,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] (output/report//report.lof [5
+[4] (../output/report//report.lof [5
 
 ])
 \tf@lof=\write7
@@ -565,7 +565,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6] (output/report//report.lot)
+[6] (../output/report//report.lot)
 \tf@lot=\write8
 \openout8 = `report.lot'.
 
@@ -1549,7 +1549,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
 
-(output/report//report.aux)
+(../output/report//report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `report.out' has not changed.
@@ -1558,7 +1558,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
  8168 strings out of 493304
- 117569 string characters out of 6139870
+ 117620 string characters out of 6139870
  323858 words of memory out of 5000000
  11120 multiletter control sequences out of 15000+600000
  14275 words of font info for 53 fonts, out of 8000000 for 9000
@@ -1572,7 +1572,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb>
-Output written on output/report//report.pdf (60 pages, 2271169 bytes).
+Output written on ../output/report//report.pdf (60 pages, 2271171 bytes).
 PDF statistics:
  911 PDF objects out of 1000 (max. 8388607)
  779 compressed objects within 8 object streams

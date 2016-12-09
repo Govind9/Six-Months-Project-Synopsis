@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 14:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -367,7 +367,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen136
 \Gm@dimlist=\toks24
 )
-Excluding 'screen' comment. (output/midterm_report//mid_report.aux)
+Excluding 'screen' comment. (../output/midterm_report//mid_report.aux)
 \openout1 = `mid_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -428,9 +428,11 @@ LaTeX Info: Redefining \ref on input line 38.
 LaTeX Info: Redefining \pageref on input line 38.
 LaTeX Info: Redefining \nameref on input line 38.
 
-(output/midterm_report//mid_report.out) (output/midterm_report//mid_report.out)
+(../output/midterm_report//mid_report.out)
+(../output/midterm_report//mid_report.out)
 \@outlinefile=\write5
 \openout5 = `mid_report.out'.
+
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -538,7 +540,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] (output/midterm_report//mid_report.toc [3
+[2] (../output/midterm_report//mid_report.toc [3
 
 ])
 \tf@toc=\write6
@@ -551,7 +553,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] (output/midterm_report//mid_report.lof)
+[4] (../output/midterm_report//mid_report.lof)
 \tf@lof=\write7
 \openout7 = `mid_report.lof'.
 
@@ -1285,7 +1287,7 @@ AED: lastpage setting LastPage [39
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
- (output/midterm_report//mid_report.aux)
+ (../output/midterm_report//mid_report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `mid_report.out' has not changed.
@@ -1294,7 +1296,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
  8007 strings out of 493304
- 114926 string characters out of 6139870
+ 114971 string characters out of 6139870
  294857 words of memory out of 5000000
  11061 multiletter control sequences out of 15000+600000
  14275 words of font info for 53 fonts, out of 8000000 for 9000
@@ -1308,8 +1310,8 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb>
-Output written on output/midterm_report//mid_report.pdf (45 pages, 1751120 byte
-s).
+Output written on ../output/midterm_report//mid_report.pdf (45 pages, 1747433 b
+ytes).
 PDF statistics:
  678 PDF objects out of 1000 (max. 8388607)
  579 compressed objects within 6 object streams
