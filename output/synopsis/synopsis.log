@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 14:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,14 +441,14 @@ LaTeX Info: Redefining \nameref on input line 38.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 500.484pt, 42.67912pt)
-* v-part:(T,H,B)=(71.13188pt, 681.15898pt, 42.67912pt)
+* h-part:(L,W,R)=(99.58464pt, 479.14442pt, 35.56593pt)
+* v-part:(T,H,B)=(71.13188pt, 688.27217pt, 35.56593pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=681.15898pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
+* \textwidth=479.14442pt
+* \textheight=688.27217pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -521,6 +521,13 @@ File: images/raspberry_pi.png Graphic file (type png)
 Package pdftex.def Info: images/raspberry_pi.png used on input line 17.
 (pdftex.def)             Requested size: 252.94438pt x 216.80946pt.
 
+<images/buildroot.png, id=100, 668.4975pt x 462.72874pt>
+File: images/buildroot.png Graphic file (type png)
+
+<use images/buildroot.png>
+Package pdftex.def Info: images/buildroot.png used on input line 23.
+(pdftex.def)             Requested size: 252.94023pt x 216.81177pt.
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -532,23 +539,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.20 \subsection
-                {Buildroot} Buildroot is a set of Makefiles and patches that...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
-has been already used, duplicate ignored
+l.64 	\newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.20 \subsection
-                {Buildroot} Buildroot is a set of Makefiles and patches that...
- <./images/beaglebone_black.png> <./images/raspberry_pi.png>]
-<images/buildroot.png, id=106, 668.4975pt x 462.72874pt>
-File: images/buildroot.png Graphic file (type png)
-
-<use images/buildroot.png>
-Package pdftex.def Info: images/buildroot.png used on input line 23.
-(pdftex.def)             Requested size: 252.94023pt x 216.81177pt.
-)
+l.64 	\newpage
+               <./images/beaglebone_black.png> <./images/raspberry_pi.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -599,7 +597,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
 Here is how much of TeX's memory you used:
  7659 strings out of 493304
  108011 string characters out of 6139870
- 290822 words of memory out of 5000000
+ 290830 words of memory out of 5000000
  10939 multiletter control sequences out of 15000+600000
  14584 words of font info for 54 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -613,7 +611,7 @@ onts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti12.pfb>
-Output written on ../output/synopsis//synopsis.pdf (10 pages, 763381 bytes).
+Output written on ../output/synopsis//synopsis.pdf (10 pages, 763406 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  159 compressed objects within 2 object streams
