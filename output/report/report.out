@@ -49,7 +49,7 @@
 \BOOKMARK [3][]{subsubsection.4.1.2.3}{The SPI programming interface}{subsection.4.1.2}% 49
 \BOOKMARK [1][]{section.4.2}{The C Programming Language}{chapter.4}% 50
 \BOOKMARK [1][]{section.4.3}{Development Boards}{chapter.4}% 51
-\BOOKMARK [2][]{subsection.4.3.1}{Raspberry Pi 3}{section.4.3}% 52
+\BOOKMARK [2][]{subsection.4.3.1}{Raspberry Pi}{section.4.3}% 52
 \BOOKMARK [2][]{subsection.4.3.2}{BeagleBone Black}{section.4.3}% 53
 \BOOKMARK [1][]{section.4.4}{Tools used}{chapter.4}% 54
 \BOOKMARK [2][]{subsection.4.4.1}{Buildroot}{section.4.4}% 55

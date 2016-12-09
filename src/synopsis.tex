@@ -1,12 +1,12 @@
 \documentclass[12pt]{report}
-\usepackage[print,nopanel]{pdfscreen}
+\usepackage[print,nopanel]{classes/pdfscreen}
 %\begin{print}
-\usepackage{lipsum}% http://ctan.org/pkg/lipsum
-\usepackage{titletoc}
+\usepackage{classes/lipsum}% http://ctan.org/pkg/lipsum
+\usepackage{classes/titletoc}
 %\section{type}
-\usepackage{lastpage}
-\usepackage{macro/macro}
-\usepackage{float}
+\usepackage{classes/lastpage}
+\usepackage{classes/macro}
+\usepackage{classes/float}
 \usepackage{fancyhdr}
 \usepackage{booktabs}
 \usepackage{array}
@@ -14,7 +14,7 @@
 \usepackage{xcolor, colortbl}
 \definecolor{Gray}{gray}{0.85}
 \usepackage{verbatim}
-\usepackage[Glenn]{fncychap}
+\usepackage[Glenn]{classes/fncychap}
 \usepackage{placeins}
 \let\Oldsubsection\subsection
 \renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
@@ -34,8 +34,9 @@
 \overlay{overlay8.pdf}
 \usepackage{graphicx}
 
+
 \begin{document}
-	\input{input/titlepage.tex}
+	\input{input/syn_titlepage.tex}
 	\begin{screen}
 		\ppttitle
 	\end{screen}
@@ -48,12 +49,6 @@
 	\pagenumbering{Roman}
 	\cfoot{\thepage}
 
-	\input{input/abstract.tex}
-	\newpage
-
-	\input{input/acknowledgement.tex}
-	\newpage
-
 	\setcounter{secnumdepth}{3}
 	\setcounter{tocdepth}{3}
 	\tableofcontents
@@ -62,27 +57,20 @@
 	\listoffigures
 	\newpage
 
-	\listoftables
-	\newpage
-
 	\pagenumbering{arabic}
 	\cfoot{\thepage}
 
-	\vskip -2cm
-	\input{input/chapterOne.tex}
+	\input{input/syn_introduction.tex}
 	\newpage
 
-	\input{input/chapterTwo.tex}
+	\input{input/syn_feasibility.tex}
 	\newpage
 
-	\input{input/chapterThree.tex}
+	\input{input/syn_planning.tex}
 	\newpage
 
-	\input{input/chapterFour.tex}
+	\input{input/syn_facilities.tex}
 	\newpage
 
-	\input{input/chapterFive.tex}
-	\newpage
-	
 	\input{input/references.tex}
 \end{document}

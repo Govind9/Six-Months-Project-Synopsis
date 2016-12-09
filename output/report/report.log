@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 13:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,9 +23,13 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./pdfscreen.sty
-Package: pdfscreen 2000/07/07 v.1.5 screen PDF design (CVR)
+)
+(./classes/pdfscreen.sty
 
+LaTeX Warning: You have requested package `classes/pdfscreen',
+               but the package provides `pdfscreen'.
+
+Package: pdfscreen 2000/07/07 v.1.5 screen PDF design (CVR)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -78,7 +82,8 @@ LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count91
 \calc@Cskip=\skip45
-) (./comment.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
@@ -214,8 +219,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip46
 )
-Include comment 'print' Excluding comment 'screen' (./fancybox.sty
-Style option: `fancybox' v1.0 <93/02/10> (tvz)
+Include comment 'print' Excluding comment 'screen'
+(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \@fancybox=\box26
 \shadowsize=\dimen111
 \@Sbox=\box27
@@ -229,17 +237,32 @@ Style option: `fancybox' v1.0 <93/02/10> (tvz)
 \@PDFmpht=\dimen112
 \c@slide=\count105
 \c@slideoverlay=\count106
-) (./lipsum.sty
+) (./classes/lipsum.sty
+
+LaTeX Warning: You have requested package `classes/lipsum',
+               but the package provides `lipsum'.
+
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count107
-) (./titletoc.sty
+) (./classes/titletoc.sty
+
+LaTeX Warning: You have requested package `classes/titletoc',
+               but the package provides `titletoc'.
+
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen113
-) (./lastpage.sty
+) (./classes/lastpage.sty
+
+LaTeX Warning: You have requested package `classes/lastpage',
+               but the package provides `lastpage'.
+
 Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
  (JPG)
-) (./macro/macro.sty)
-(./float.sty
+) (./classes/macro.sty) (./classes/float.sty
+
+LaTeX Warning: You have requested package `classes/float',
+               but the package provides `float'.
+
 Package: float 1999/05/29 v1.2d Float enhancements (AL)
 \c@float@type=\count108
 \float@box=\box28
@@ -311,7 +334,12 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks22
 \verbatim@line=\toks23
 \verbatim@in@stream=\read2
-) (./fncychap.sty
+)
+(./classes/fncychap.sty
+
+LaTeX Warning: You have requested package `classes/fncychap',
+               but the package provides `fncychap'.
+
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \RW=\skip59
 \mylen=\skip60
@@ -321,8 +349,7 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pyy=\skip64
 \pxx=\skip65
 \backskip=\skip66
-)
-(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
@@ -340,7 +367,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen136
 \Gm@dimlist=\toks24
 )
-Excluding 'screen' comment. (./report.aux)
+Excluding 'screen' comment. (output/report//report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -401,7 +428,7 @@ LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
 
-(./report.out) (./report.out)
+(output/report//report.out) (output/report//report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
@@ -512,7 +539,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] (./report.toc [3
+[2] (output/report//report.toc [3
 
 ])
 \tf@toc=\write6
@@ -525,7 +552,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] (./report.lof [5
+[4] (output/report//report.lof [5
 
 ])
 \tf@lof=\write7
@@ -538,7 +565,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6] (./report.lot)
+[6] (output/report//report.lot)
 \tf@lot=\write8
 \openout8 = `report.lot'.
 
@@ -1003,11 +1030,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 l.242 \subparagraph
                    {GATT operations} <./images/gatt_server.png>])
 (./input/sections/assumptions_and_dependencies.tex
+(./input/sections/subsections/bluez_the_official_linux_bluetooth_stack.tex
 <images/bluez_intro.png, id=643, 273.02pt x 185.69376pt>
 File: images/bluez_intro.png Graphic file (type png)
 
 <use images/bluez_intro.png>
-Package pdftex.def Info: images/bluez_intro.png used on input line 14.
+Package pdftex.def Info: images/bluez_intro.png used on input line 5.
 (pdftex.def)             Requested size: 252.9478pt x 216.81596pt.
 
 
@@ -1028,23 +1056,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.23 	\item T
+l.14 	\item T
              he controller <./images/bluez_intro.png>]
 <images/bluetooth_stack.png, id=660, 400.49625pt x 369.38pt>
 File: images/bluetooth_stack.png Graphic file (type png)
 
 <use images/bluetooth_stack.png>
-Package pdftex.def Info: images/bluetooth_stack.png used on input line 30.
+Package pdftex.def Info: images/bluetooth_stack.png used on input line 21.
 (pdftex.def)             Requested size: 200.24763pt x 184.68954pt.
 
 <images/kernel_userspace.png, id=661, 473.77pt x 260.975pt>
 File: images/kernel_userspace.png Graphic file (type png)
 
 <use images/kernel_userspace.png>
-Package pdftex.def Info: images/kernel_userspace.png used on input line 36.
+Package pdftex.def Info: images/kernel_userspace.png used on input line 27.
 (pdftex.def)             Requested size: 252.94034pt x 216.81229pt.
 
-Overfull \hbox (32.06671pt too wide) in paragraph at lines 51--52
+Overfull \hbox (32.06671pt too wide) in paragraph at lines 42--43
 \OT1/cmr/m/n/12 The source for the user-space side of Blue can be ne ob-tained 
 from \OT1/cmr/bx/n/12 http://www.bluez.org/download/\OT1/cmr/m/n/12 .
  []
@@ -1060,7 +1088,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.56 		\item D
+l.47 		\item D
               -Bus interfaces for UI and other subsystems <./images/bluetooth_s
 tack.png (PNG copy)>]
 Missing character: There is no â in font cmr12!
@@ -1071,9 +1099,9 @@ Missing character: There is no “ in font cmr12!
 File: images/whole_bluez.png Graphic file (type png)
 
 <use images/whole_bluez.png>
-Package pdftex.def Info: images/whole_bluez.png used on input line 76.
+Package pdftex.def Info: images/whole_bluez.png used on input line 67.
 (pdftex.def)             Requested size: 252.94366pt x 216.81209pt.
-
+) (./input/sections/subsections/bluenrg.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1085,8 +1113,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.79 \subsection
-                {BlueNRG} <./images/kernel_userspace.png (PNG copy)>]
+l.1 \subsection
+               {BlueNRG} <./images/kernel_userspace.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1098,13 +1126,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.88 	\item S
+l.10 	\item S
              M: privacy, authentication and authorization <./images/whole_bluez
 .png (PNG copy)>] <images/bluenrg_spi.png, id=678, 548.0475pt x 573.14125pt>
 File: images/bluenrg_spi.png Graphic file (type png)
 
 <use images/bluenrg_spi.png>
-Package pdftex.def Info: images/bluenrg_spi.png used on input line 99.
+Package pdftex.def Info: images/bluenrg_spi.png used on input line 21.
 (pdftex.def)             Requested size: 252.94952pt x 216.8077pt.
 
 
@@ -1118,7 +1146,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.200 \begin{itemize}
+l.122 \begin{itemize}
                       <./images/bluenrg_spi.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1131,13 +1159,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.204 \end{itemize}
+l.126 \end{itemize}
                    pdfTeX warning (ext4): destination with the same identifier 
 (name{table.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.204 \end{itemize}
+l.126 \end{itemize}
                    ]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1150,15 +1178,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.241 		\item R
+l.163 		\item R
                eceive Radio mode]
 <images/operating_modes.png, id=692, 556.0775pt x 380.42125pt>
 File: images/operating_modes.png Graphic file (type png)
 
 <use images/operating_modes.png>
-Package pdftex.def Info: images/operating_modes.png used on input line 253.
+Package pdftex.def Info: images/operating_modes.png used on input line 175.
 (pdftex.def)             Requested size: 252.94777pt x 216.81332pt.
-) (./input/sections/product_perspective.tex)
+)) (./input/sections/product_perspective.tex)
 (./input/sections/flow_diagram.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1295,6 +1323,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [39]) (./input/sections/the_c_programming_language.tex)
 (./input/sections/development_boards.tex
+(./input/sections/subsections/raspberry_pi.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1311,9 +1340,10 @@ Missing character: There is no ² in font cmr12!
 File: images/raspberry_pi.png Graphic file (type png)
 
 <use images/raspberry_pi.png>
-Package pdftex.def Info: images/raspberry_pi.png used on input line 10.
+Package pdftex.def Info: images/raspberry_pi.png used on input line 8.
 (pdftex.def)             Requested size: 252.94438pt x 216.80946pt.
-
+)
+(./input/sections/subsections/beaglebone_black.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1324,9 +1354,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: images/beaglebone_black.png Graphic file (type png)
 
 <use images/beaglebone_black.png>
-Package pdftex.def Info: images/beaglebone_black.png used on input line 18.
+Package pdftex.def Info: images/beaglebone_black.png used on input line 6.
 (pdftex.def)             Requested size: 252.94254pt x 216.81401pt.
-) (./input/sections/tools_used.tex
+)) (./input/sections/tools_used.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1518,18 +1548,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
- (./report.aux)
+
+(output/report//report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 18817A42BBE43A48FF31761FF24CE5F7;4745.
+(rerunfilecheck)             Checksum: <no file>.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 8151 strings out of 493304
- 116264 string characters out of 6139870
- 323879 words of memory out of 5000000
- 11117 multiletter control sequences out of 15000+600000
+ 8168 strings out of 493304
+ 117569 string characters out of 6139870
+ 323858 words of memory out of 5000000
+ 11120 multiletter control sequences out of 15000+600000
  14275 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  36i,13n,43p,1510b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1541,7 +1572,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (60 pages, 2267728 bytes).
+Output written on output/report//report.pdf (60 pages, 2271169 bytes).
 PDF statistics:
  911 PDF objects out of 1000 (max. 8388607)
  779 compressed objects within 8 object streams

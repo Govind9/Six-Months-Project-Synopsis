@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 12:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**syn_report.tex
-(./syn_report.tex
+**synopsis.tex
+(./synopsis.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -23,9 +23,13 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./pdfscreen.sty
-Package: pdfscreen 2000/07/07 v.1.5 screen PDF design (CVR)
+)
+(./classes/pdfscreen.sty
 
+LaTeX Warning: You have requested package `classes/pdfscreen',
+               but the package provides `pdfscreen'.
+
+Package: pdfscreen 2000/07/07 v.1.5 screen PDF design (CVR)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -78,7 +82,8 @@ LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count91
 \calc@Cskip=\skip45
-) (./comment.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
@@ -214,8 +219,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip46
 )
-Include comment 'print' Excluding comment 'screen' (./fancybox.sty
-Style option: `fancybox' v1.0 <93/02/10> (tvz)
+Include comment 'print' Excluding comment 'screen'
+(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \@fancybox=\box26
 \shadowsize=\dimen111
 \@Sbox=\box27
@@ -229,17 +237,32 @@ Style option: `fancybox' v1.0 <93/02/10> (tvz)
 \@PDFmpht=\dimen112
 \c@slide=\count105
 \c@slideoverlay=\count106
-) (./lipsum.sty
+) (./classes/lipsum.sty
+
+LaTeX Warning: You have requested package `classes/lipsum',
+               but the package provides `lipsum'.
+
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count107
-) (./titletoc.sty
+) (./classes/titletoc.sty
+
+LaTeX Warning: You have requested package `classes/titletoc',
+               but the package provides `titletoc'.
+
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen113
-) (./lastpage.sty
+) (./classes/lastpage.sty
+
+LaTeX Warning: You have requested package `classes/lastpage',
+               but the package provides `lastpage'.
+
 Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
  (JPG)
-) (./macro/macro.sty)
-(./float.sty
+) (./classes/macro.sty) (./classes/float.sty
+
+LaTeX Warning: You have requested package `classes/float',
+               but the package provides `float'.
+
 Package: float 1999/05/29 v1.2d Float enhancements (AL)
 \c@float@type=\count108
 \float@box=\box28
@@ -311,7 +334,12 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks22
 \verbatim@line=\toks23
 \verbatim@in@stream=\read2
-) (./fncychap.sty
+)
+(./classes/fncychap.sty
+
+LaTeX Warning: You have requested package `classes/fncychap',
+               but the package provides `fncychap'.
+
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \RW=\skip59
 \mylen=\skip60
@@ -321,8 +349,7 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pyy=\skip64
 \pxx=\skip65
 \backskip=\skip66
-)
-(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
@@ -340,23 +367,23 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen136
 \Gm@dimlist=\toks24
 )
-Excluding 'screen' comment. (./syn_report.aux)
-\openout1 = `syn_report.aux'.
+Excluding 'screen' comment. (output/synopsis//synopsis.aux)
+\openout1 = `synopsis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -387,7 +414,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 37.
+Package hyperref Info: Link coloring ON on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -397,13 +424,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count122
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
-(./syn_report.out) (./syn_report.out)
+(output/synopsis//synopsis.out) (output/synopsis//synopsis.out)
 \@outlinefile=\write5
-\openout5 = `syn_report.out'.
+\openout5 = `synopsis.out'.
 
 
 *geometry* driver: auto-detecting
@@ -414,14 +441,14 @@ LaTeX Info: Redefining \nameref on input line 37.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(99.58464pt, 479.14442pt, 35.56593pt)
-* v-part:(T,H,B)=(71.13188pt, 688.27217pt, 35.56593pt)
+* h-part:(L,W,R)=(71.13188pt, 500.484pt, 42.67912pt)
+* v-part:(T,H,B)=(71.13188pt, 681.15898pt, 42.67912pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=479.14442pt
-* \textheight=688.27217pt
-* \oddsidemargin=27.31465pt
-* \evensidemargin=27.31465pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -444,34 +471,34 @@ LaTeX Info: Redefining \nameref on input line 37.
 <images/gne.png, id=56, 618.31pt x 678.535pt>
 File: images/gne.png Graphic file (type png)
  <use images/gne.png>
-Package pdftex.def Info: images/gne.png used on input line 45.
+Package pdftex.def Info: images/gne.png used on input line 46.
 (pdftex.def)             Requested size: 98.93161pt x 108.56781pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/gne.png>] (./syn_
-report.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/gne.png>]
+(output/synopsis//synopsis.toc)
 \tf@toc=\write6
-\openout6 = `syn_report.toc'.
+\openout6 = `synopsis.toc'.
 
+ [1
 
-[1
-
-] (./syn_report.lof)
+] (output/synopsis//synopsis.lof)
 \tf@lof=\write7
-\openout7 = `syn_report.lof'.
+\openout7 = `synopsis.lof'.
 
  [2
 
-] (./input/syn_introduction.tex
+]
+(./input/syn_introduction.tex
 Chapter 1.
 <images/beaglebone_black.png, id=94, 457.71pt x 412.54124pt>
 File: images/beaglebone_black.png Graphic file (type png)
@@ -494,7 +521,28 @@ File: images/raspberry_pi.png Graphic file (type png)
 Package pdftex.def Info: images/raspberry_pi.png used on input line 17.
 (pdftex.def)             Requested size: 252.94438pt x 216.80946pt.
 
-<images/buildroot.png, id=100, 668.4975pt x 462.72874pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.20 \subsection
+                {Buildroot} Buildroot is a set of Makefiles and patches that...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.20 \subsection
+                {Buildroot} Buildroot is a set of Makefiles and patches that...
+ <./images/beaglebone_black.png> <./images/raspberry_pi.png>]
+<images/buildroot.png, id=106, 668.4975pt x 462.72874pt>
 File: images/buildroot.png Graphic file (type png)
 
 <use images/buildroot.png>
@@ -507,31 +555,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.63 	\newpage
-              pdfTeX warning (ext4): destination with the same identifier (name
-{figure.1.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.63 	\newpage
-               <./images/beaglebone_black.png> <./images/raspberry_pi.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.63 	\newpage
+l.64 	\newpage
                <./images/buildroot.png>] (./input/syn_feasibility.tex
 Chapter 2.
 Missing character: There is no â in font cmr12!
@@ -557,23 +586,24 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (./input/references.tex) AED: lastpage setting LastPage [7
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
- (./syn_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
-Package rerunfilecheck Info: File `syn_report.out' has not changed.
-(rerunfilecheck)             Checksum: 8948352F69B37BF76596A4D9C5E91852;835.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
+
+(output/synopsis//synopsis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
+Package rerunfilecheck Info: File `synopsis.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 7653 strings out of 493304
- 107173 string characters out of 6139870
- 290853 words of memory out of 5000000
- 10936 multiletter control sequences out of 15000+600000
+ 7659 strings out of 493304
+ 107966 string characters out of 6139870
+ 290822 words of memory out of 5000000
+ 10939 multiletter control sequences out of 15000+600000
  14584 words of font info for 54 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,11n,43p,858b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,43p,856b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texliv
@@ -583,7 +613,7 @@ onts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti12.pfb>
-Output written on syn_report.pdf (10 pages, 763407 bytes).
+Output written on output/synopsis//synopsis.pdf (10 pages, 763381 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  159 compressed objects within 2 object streams

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 13:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,9 +23,13 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./pdfscreen.sty
-Package: pdfscreen 2000/07/07 v.1.5 screen PDF design (CVR)
+)
+(./classes/pdfscreen.sty
 
+LaTeX Warning: You have requested package `classes/pdfscreen',
+               but the package provides `pdfscreen'.
+
+Package: pdfscreen 2000/07/07 v.1.5 screen PDF design (CVR)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -78,7 +82,8 @@ LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count91
 \calc@Cskip=\skip45
-) (./comment.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
@@ -214,8 +219,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip46
 )
-Include comment 'print' Excluding comment 'screen' (./fancybox.sty
-Style option: `fancybox' v1.0 <93/02/10> (tvz)
+Include comment 'print' Excluding comment 'screen'
+(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \@fancybox=\box26
 \shadowsize=\dimen111
 \@Sbox=\box27
@@ -229,17 +237,32 @@ Style option: `fancybox' v1.0 <93/02/10> (tvz)
 \@PDFmpht=\dimen112
 \c@slide=\count105
 \c@slideoverlay=\count106
-) (./lipsum.sty
+) (./classes/lipsum.sty
+
+LaTeX Warning: You have requested package `classes/lipsum',
+               but the package provides `lipsum'.
+
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count107
-) (./titletoc.sty
+) (./classes/titletoc.sty
+
+LaTeX Warning: You have requested package `classes/titletoc',
+               but the package provides `titletoc'.
+
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen113
-) (./lastpage.sty
+) (./classes/lastpage.sty
+
+LaTeX Warning: You have requested package `classes/lastpage',
+               but the package provides `lastpage'.
+
 Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
  (JPG)
-) (./macro/macro.sty)
-(./float.sty
+) (./classes/macro.sty) (./classes/float.sty
+
+LaTeX Warning: You have requested package `classes/float',
+               but the package provides `float'.
+
 Package: float 1999/05/29 v1.2d Float enhancements (AL)
 \c@float@type=\count108
 \float@box=\box28
@@ -311,7 +334,12 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks22
 \verbatim@line=\toks23
 \verbatim@in@stream=\read2
-) (./fncychap.sty
+)
+(./classes/fncychap.sty
+
+LaTeX Warning: You have requested package `classes/fncychap',
+               but the package provides `fncychap'.
+
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \RW=\skip59
 \mylen=\skip60
@@ -321,8 +349,7 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pyy=\skip64
 \pxx=\skip65
 \backskip=\skip66
-)
-(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
@@ -340,7 +367,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen136
 \Gm@dimlist=\toks24
 )
-Excluding 'screen' comment. (./mid_report.aux)
+Excluding 'screen' comment. (output/midterm_report//mid_report.aux)
 \openout1 = `mid_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -401,10 +428,9 @@ LaTeX Info: Redefining \ref on input line 38.
 LaTeX Info: Redefining \pageref on input line 38.
 LaTeX Info: Redefining \nameref on input line 38.
 
-(./mid_report.out) (./mid_report.out)
+(output/midterm_report//mid_report.out) (output/midterm_report//mid_report.out)
 \@outlinefile=\write5
 \openout5 = `mid_report.out'.
-
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -512,7 +538,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] (./mid_report.toc [3
+[2] (output/midterm_report//mid_report.toc [3
 
 ])
 \tf@toc=\write6
@@ -525,7 +551,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] (./mid_report.lof)
+[4] (output/midterm_report//mid_report.lof)
 \tf@lof=\write7
 \openout7 = `mid_report.lof'.
 
@@ -1259,18 +1285,18 @@ AED: lastpage setting LastPage [39
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
- (./mid_report.aux)
+ (output/midterm_report//mid_report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `mid_report.out' has not changed.
-(rerunfilecheck)             Checksum: 95DA4330467ABC358E4358DE4CBF65E6;3438.
+(rerunfilecheck)             Checksum: <no file>.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 8001 strings out of 493304
- 114009 string characters out of 6139870
- 294878 words of memory out of 5000000
- 11058 multiletter control sequences out of 15000+600000
+ 8007 strings out of 493304
+ 114926 string characters out of 6139870
+ 294857 words of memory out of 5000000
+ 11061 multiletter control sequences out of 15000+600000
  14275 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  36i,11n,43p,1514b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1282,7 +1308,8 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb>
-Output written on mid_report.pdf (45 pages, 1747626 bytes).
+Output written on output/midterm_report//mid_report.pdf (45 pages, 1751120 byte
+s).
 PDF statistics:
  678 PDF objects out of 1000 (max. 8388607)
  579 compressed objects within 6 object streams

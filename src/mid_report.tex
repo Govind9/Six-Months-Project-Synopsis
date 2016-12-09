@@ -1,12 +1,12 @@
 \documentclass[12pt]{report}
-\usepackage[print,nopanel]{pdfscreen}
+\usepackage[print,nopanel]{classes/pdfscreen}
 %\begin{print}
-\usepackage{lipsum}% http://ctan.org/pkg/lipsum
-\usepackage{titletoc}
+\usepackage{classes/lipsum}% http://ctan.org/pkg/lipsum
+\usepackage{classes/titletoc}
 %\section{type}
-\usepackage{lastpage}
-\usepackage{macro/macro}
-\usepackage{float}
+\usepackage{classes/lastpage}
+\usepackage{classes/macro}
+\usepackage{classes/float}
 \usepackage{fancyhdr}
 \usepackage{booktabs}
 \usepackage{array}
@@ -14,12 +14,12 @@
 \usepackage{xcolor, colortbl}
 \definecolor{Gray}{gray}{0.85}
 \usepackage{verbatim}
-\usepackage[Glenn]{fncychap}
+\usepackage[Glenn]{classes/fncychap}
 \usepackage{placeins}
 \let\Oldsubsection\subsection
 \renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
 \lhead{\tiny\bfseries Linux Device Driver for BlueNRG}
-\usepackage[left=3.5cm, right=1.25cm, top=2.5cm, bottom=1.25cm]{geometry}
+\usepackage[left=2.5cm, right=1.5cm, top=2.5cm, bottom=1.5cm]{geometry}
 \pagestyle{fancy}
 %\end{print}
 \margins{2.5cm}{1.5cm}{1.5cm}{1.5cm}
@@ -36,7 +36,7 @@
 
 
 \begin{document}
-	\input{input/syn_titlepage.tex}
+	\input{input/titlepage.tex}
 	\begin{screen}
 		\ppttitle
 	\end{screen}
@@ -49,6 +49,12 @@
 	\pagenumbering{Roman}
 	\cfoot{\thepage}
 
+	\input{input/abstract.tex}
+	\newpage
+
+	\input{input/acknowledgement.tex}
+	\newpage
+	
 	\setcounter{secnumdepth}{3}
 	\setcounter{tocdepth}{3}
 	\tableofcontents
@@ -60,17 +66,21 @@
 	\pagenumbering{arabic}
 	\cfoot{\thepage}
 
-	\input{input/syn_introduction.tex}
+	\vskip -2cm
+	\input{input/chapterOne.tex}
 	\newpage
 
-	\input{input/syn_feasibility.tex}
+	\input{input/chapterTwo.tex}
 	\newpage
 
-	\input{input/syn_planning.tex}
+	\input{input/mid_chapterThree.tex}
 	\newpage
 
-	\input{input/syn_facilities.tex}
+	\input{input/mid_chapterFour.tex}
 	\newpage
 
+	%\input{input/chapterFive.tex}
+	%\newpage
+	
 	\input{input/references.tex}
 \end{document}
