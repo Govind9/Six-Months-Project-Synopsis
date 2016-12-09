@@ -1,0 +1,13 @@
+\chapter{Planning of Work}
+Following are the steps needed to complete the project and then test it:
+\begin{enumerate}
+	\item Choosing a host system upon which the development is to be had e.g. \textbf{BeagleBone Black} or \textbf{Raspberry Pi 3}. Raspberry Pi 3 seems like the more obvious choice because of its builtin Bluetooth capabilities and configurations.
+	\item Preparing a Linux environment consisting of a kernel, device tree binaries, bootloader and a root file system consisting of all the necessary software support for proper working of Bluetooth. \textbf{Buildroot} is to be used for this step.
+	\item Enabling SPI support in the host.
+	\item Configuring the device tree binaries of the board in the Linux kernel so as to recognise BlueNRG as an SPI device.
+	\item Coding the driver. This is a big step as it includes many substeps and considerations from making the driver communicate with the host and then from there making it respond to commands sent from the driver. Once the hardware starts responding then comes the turn of the main coding activity i.e. extending all the features offered by BlueNRG in the driver and mapping them to the command line utilities offered by Bluez.
+	\item Documenting the driver.
+	\item Embedding the whole code into a local copy of the kernel and booting the host from it.
+	\item Testing the new environment with BlueNRG to see if it works like it should.
+	\item Preparing patches for the final product and sending them to appropriate Linux maintainers for consideration.
+\end{enumerate}

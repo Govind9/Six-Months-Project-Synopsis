@@ -1,0 +1,13 @@
+\BOOKMARK [0][]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][]{section.1.1}{Technologies Used}{chapter.1}% 2
+\BOOKMARK [2][]{subsection.1.1.1}{Bluetooth Low Energy}{section.1.1}% 3
+\BOOKMARK [2][]{subsection.1.1.2}{BeagleBone Black}{section.1.1}% 4
+\BOOKMARK [2][]{subsection.1.1.3}{Raspberry Pi}{section.1.1}% 5
+\BOOKMARK [2][]{subsection.1.1.4}{Buildroot}{section.1.1}% 6
+\BOOKMARK [0][]{chapter.2}{Feasibility Study}{}% 7
+\BOOKMARK [1][]{section.2.1}{BlueNRG compatibility with Bluez}{chapter.2}% 8
+\BOOKMARK [1][]{section.2.2}{BlueNRG compatibility with Linux}{chapter.2}% 9
+\BOOKMARK [0][]{chapter.3}{Planning of Work}{}% 10
+\BOOKMARK [0][]{chapter.4}{Facilities required for proposed work}{}% 11
+\BOOKMARK [1][]{section.4.1}{Hardware Requirements}{chapter.4}% 12
+\BOOKMARK [1][]{section.4.2}{Software Requirements}{chapter.4}% 13
