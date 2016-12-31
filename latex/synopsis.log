@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.6)  31 DEC 2016 10:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.6)  8 DEC 2016 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**report.tex
-(./report.tex
+**synopsis.tex
+(./synopsis.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -23,13 +23,9 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(./classes/pdfscreen.sty
-
-LaTeX Warning: You have requested package `classes/pdfscreen',
-               but the package provides `pdfscreen'.
-
+) (./pdfscreen.sty
 Package: pdfscreen 2000/07/07 v.1.5 screen PDF design (CVR)
+
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -82,8 +78,7 @@ LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count91
 \calc@Cskip=\skip45
-)
-(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+) (./comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
@@ -219,11 +214,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip46
 )
-Include comment 'print' Excluding comment 'screen'
-(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
-Package: fancybox 2010/05/15 1.4
-
-Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+Include comment 'print' Excluding comment 'screen' (./fancybox.sty
+Style option: `fancybox' v1.0 <93/02/10> (tvz)
 \@fancybox=\box26
 \shadowsize=\dimen111
 \@Sbox=\box27
@@ -237,32 +229,17 @@ Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \@PDFmpht=\dimen112
 \c@slide=\count105
 \c@slideoverlay=\count106
-) (./classes/lipsum.sty
-
-LaTeX Warning: You have requested package `classes/lipsum',
-               but the package provides `lipsum'.
-
+) (./lipsum.sty
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count107
-) (./classes/titletoc.sty
-
-LaTeX Warning: You have requested package `classes/titletoc',
-               but the package provides `titletoc'.
-
+) (./titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen113
-) (./classes/lastpage.sty
-
-LaTeX Warning: You have requested package `classes/lastpage',
-               but the package provides `lastpage'.
-
+) (./lastpage.sty
 Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
  (JPG)
-) (./classes/macro.sty) (./classes/float.sty
-
-LaTeX Warning: You have requested package `classes/float',
-               but the package provides `float'.
-
+) (./macro/macro.sty)
+(./float.sty
 Package: float 1999/05/29 v1.2d Float enhancements (AL)
 \c@float@type=\count108
 \float@box=\box28
@@ -334,12 +311,7 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks22
 \verbatim@line=\toks23
 \verbatim@in@stream=\read2
-)
-(./classes/fncychap.sty
-
-LaTeX Warning: You have requested package `classes/fncychap',
-               but the package provides `fncychap'.
-
+) (./fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \RW=\skip59
 \mylen=\skip60
@@ -349,7 +321,8 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pyy=\skip64
 \pxx=\skip65
 \backskip=\skip66
-) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
@@ -367,8 +340,8 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen136
 \Gm@dimlist=\toks24
 )
-Excluding 'screen' comment. (../output/report//report.aux)
-\openout1 = `report.aux'.
+Excluding 'screen' comment. (./synopsis.aux)
+\openout1 = `synopsis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
@@ -428,9 +401,9 @@ LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
 
-(../output/report//report.out) (../output/report//report.out)
+(./synopsis.out) (./synopsis.out)
 \@outlinefile=\write5
-\openout5 = `report.out'.
+\openout5 = `synopsis.out'.
 
 
 *geometry* driver: auto-detecting
@@ -467,8 +440,8 @@ LaTeX Info: Redefining \nameref on input line 37.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./input/titlepage.tex) Excluding 'screen' comment.
-<images/gne.png, id=265, 618.31pt x 678.535pt>
+(./input/syn_titlepage.tex) Excluding 'screen' comment.
+<images/gne.png, id=269, 618.31pt x 678.535pt>
 File: images/gne.png Graphic file (type png)
  <use images/gne.png>
 Package pdftex.def Info: images/gne.png used on input line 45.
@@ -484,17 +457,52 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 45.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/gne.png>] (./inpu
-t/abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/gne.png>]
+(./input/syn_introduction.tex
+<images/beaglebone_black.png, id=279, 457.71pt x 412.54124pt>
+File: images/beaglebone_black.png Graphic file (type png)
 
- []
+<use images/beaglebone_black.png>
+Package pdftex.def Info: images/beaglebone_black.png used on input line 13.
+(pdftex.def)             Requested size: 252.94254pt x 216.81401pt.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+<images/raspberry_pi.png, id=280, 1027.84pt x 1027.84pt>
+File: images/raspberry_pi.png Graphic file (type png)
+
+<use images/raspberry_pi.png>
+Package pdftex.def Info: images/raspberry_pi.png used on input line 19.
+(pdftex.def)             Requested size: 252.94438pt x 216.80946pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
- []
+[1]
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.22 	\item \textbf
+                   {Buildroot}: Buildroot is a set of Makefiles and patches ...
+ <./images/beaglebone_black.png>]
+<images/buildroot.png, id=295, 668.4975pt x 462.72874pt>
+File: images/buildroot.png Graphic file (type png)
+
+<use images/buildroot.png>
+Package pdftex.def Info: images/buildroot.png used on input line 25.
+(pdftex.def)             Requested size: 252.94023pt x 216.81177pt.
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -502,48 +510,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1] (./input/acknowledgement.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}
+) has been already used, duplicate ignored
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-)
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.55 	\newpage
+               <./images/raspberry_pi.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] (../output/report//report.toc [3
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.0.3}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.56 	\tableofcontents
+                       <./images/buildroot.png>] (./synopsis.toc [5
 
 ])
 \tf@toc=\write6
-\openout6 = `report.toc'.
+\openout6 = `synopsis.toc'.
 
 
 
@@ -552,11 +542,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] (../output/report//report.lof [5
+[6] (./synopsis.lof [7
 
 ])
 \tf@lof=\write7
-\openout7 = `report.lof'.
+\openout7 = `synopsis.lof'.
 
 
 
@@ -565,15 +555,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6] (../output/report//report.lot)
+[8] (./synopsis.lot)
 \tf@lot=\write8
-\openout8 = `report.lot'.
+\openout8 = `synopsis.lot'.
 
- [7
+ [9
 
 ] (./input/chapterOne.tex
 Chapter 1.
-<images/company.jpg, id=459, 515.9275pt x 398.48875pt>
+<images/company.jpg, id=479, 515.9275pt x 398.48875pt>
 File: images/company.jpg Graphic file (type jpg)
 
 <use images/company.jpg>
@@ -608,14 +598,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2] (./input/chapterTwo.tex
 Chapter 2.
-(./input/sections/overview.tex) (./input/sections/existing_systems.tex [3
+[3
 
-]
-<images/bluefritz_usb.png, id=473, 137.7647pt x 96.36pt>
+] <images/bluefritz_usb.png, id=494, 137.7647pt x 96.36pt>
 File: images/bluefritz_usb.png Graphic file (type png)
 
 <use images/bluefritz_usb.png>
-Package pdftex.def Info: images/bluefritz_usb.png used on input line 7.
+Package pdftex.def Info: images/bluefritz_usb.png used on input line 14.
 (pdftex.def)             Requested size: 68.88217pt x 48.17987pt.
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
@@ -626,11 +615,11 @@ Missing character: There is no   in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
 
-<images/qualcomm_atheros.png, id=474, 374.39874pt x 173.64874pt>
+<images/qualcomm_atheros.png, id=495, 374.39874pt x 173.64874pt>
 File: images/qualcomm_atheros.png Graphic file (type png)
 
 <use images/qualcomm_atheros.png>
-Package pdftex.def Info: images/qualcomm_atheros.png used on input line 14.
+Package pdftex.def Info: images/qualcomm_atheros.png used on input line 21.
 (pdftex.def)             Requested size: 252.94818pt x 216.81927pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -647,17 +636,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.18 \subsection
+l.25 \subsection
                 {Intel Bluetooth Devices} <./images/bluefritz_usb.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/intel_bluetooth.png, id=479, 301.125pt x 206.7725pt>
+<images/intel_bluetooth.png, id=501, 301.125pt x 206.7725pt>
 File: images/intel_bluetooth.png Graphic file (type png)
 
 <use images/intel_bluetooth.png>
-Package pdftex.def Info: images/intel_bluetooth.png used on input line 26.
+Package pdftex.def Info: images/intel_bluetooth.png used on input line 33.
 (pdftex.def)             Requested size: 252.95705pt x 216.81464pt.
 
 
@@ -671,17 +660,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.29 \subsection
+l.36 \subsection
                 {Broadcom Blutonium} <./images/qualcomm_atheros.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/broadcom_blutonium.png, id=486, 401.5pt x 401.5pt>
+<images/broadcom_blutonium.png, id=507, 401.5pt x 401.5pt>
 File: images/broadcom_blutonium.png Graphic file (type png)
 
 <use images/broadcom_blutonium.png>
-Package pdftex.def Info: images/broadcom_blutonium.png used on input line 33.
+Package pdftex.def Info: images/broadcom_blutonium.png used on input line 40.
 (pdftex.def)             Requested size: 252.95245pt x 216.81288pt.
 
 
@@ -695,24 +684,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.36 \subsection
+l.43 \subsection
                 {Marvell Bluetooth}pdfTeX warning (ext4): destination with the 
 same identifier (name{figure.2.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.36 \subsection
+l.43 \subsection
                 {Marvell Bluetooth} <./images/intel_bluetooth.png> <./images/br
 oadcom_blutonium.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/marvell_bluetooth.png, id=492, 321.2pt x 262.9825pt>
+<images/marvell_bluetooth.png, id=513, 321.2pt x 262.9825pt>
 File: images/marvell_bluetooth.png Graphic file (type png)
 
 <use images/marvell_bluetooth.png>
-Package pdftex.def Info: images/marvell_bluetooth.png used on input line 41.
+Package pdftex.def Info: images/marvell_bluetooth.png used on input line 48.
 (pdftex.def)             Requested size: 252.95123pt x 216.81876pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -721,11 +710,11 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/3com_bluetooth.png, id=493, 154.176pt x 108.6459pt>
+<images/3com_bluetooth.png, id=514, 154.176pt x 108.6459pt>
 File: images/3com_bluetooth.png Graphic file (type png)
 
 <use images/3com_bluetooth.png>
-Package pdftex.def Info: images/3com_bluetooth.png used on input line 49.
+Package pdftex.def Info: images/3com_bluetooth.png used on input line 56.
 (pdftex.def)             Requested size: 252.94904pt x 216.81874pt.
 
 
@@ -739,7 +728,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.52 \subsection
+l.59 \subsection
                 {Texas Instrument Dual-mode Bluetooth CC2564 Module} <./images/
 marvell_bluetooth.png>]
 
@@ -753,10 +742,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.69 		\item M
-              SP-EXP430F5529 <./images/3com_bluetooth.png>])
-(./input/sections/requirement_analysis.tex)
-(./input/sections/feasibility_study.tex
+l.76 		\item M
+              SP-EXP430F5529 <./images/3com_bluetooth.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -764,7 +751,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9]
-Overfull \hbox (18.91373pt too wide) in paragraph at lines 5--5
+Overfull \hbox (18.91373pt too wide) in paragraph at lines 95--95
 []\OT1/cmr/bx/n/14.4 Does Linux sup-ports what Blu-eNRG uses to com-mu-ni-cate 
 through? 
  []
@@ -772,14 +759,13 @@ through?
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-) (./input/sections/objectives_of_the_project.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]))
+[10])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -788,12 +774,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11] (./input/chapterThree.tex
 Chapter 3.
-(./input/sections/product_functions.tex
-<images/device_configuration.png, id=516, 512.91624pt x 200.75pt>
+<images/device_configuration.png, id=536, 512.91624pt x 200.75pt>
 File: images/device_configuration.png Graphic file (type png)
 
 <use images/device_configuration.png>
-Package pdftex.def Info: images/device_configuration.png used on input line 13.
+Package pdftex.def Info: images/device_configuration.png used on input line 14.
 
 (pdftex.def)             Requested size: 256.45749pt x 100.37474pt.
  [12
@@ -803,7 +788,7 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.18 \begin{enumerate}
+l.19 \begin{enumerate}
                        <./images/device_configuration.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -812,18 +797,18 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/broadcast_topology.png, id=521, 1299.85625pt x 659.46375pt>
+<images/broadcast_topology.png, id=541, 1299.85625pt x 659.46375pt>
 File: images/broadcast_topology.png Graphic file (type png)
 
 <use images/broadcast_topology.png>
-Package pdftex.def Info: images/broadcast_topology.png used on input line 37.
+Package pdftex.def Info: images/broadcast_topology.png used on input line 38.
 (pdftex.def)             Requested size: 252.94534pt x 216.80864pt.
 
-<images/connected_topology.png, id=522, 1303.87125pt x 658.46pt>
+<images/connected_topology.png, id=542, 1303.87125pt x 658.46pt>
 File: images/connected_topology.png Graphic file (type png)
 
 <use images/connected_topology.png>
-Package pdftex.def Info: images/connected_topology.png used on input line 46.
+Package pdftex.def Info: images/connected_topology.png used on input line 47.
 (pdftex.def)             Requested size: 252.93082pt x 216.8102pt.
 
 
@@ -832,11 +817,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13] <images/mixed_topology.png, id=534, 1482.53876pt x 772.8875pt>
+[13] <images/mixed_topology.png, id=554, 1482.53876pt x 772.8875pt>
 File: images/mixed_topology.png Graphic file (type png)
 
 <use images/mixed_topology.png>
-Package pdftex.def Info: images/mixed_topology.png used on input line 53.
+Package pdftex.def Info: images/mixed_topology.png used on input line 54.
 (pdftex.def)             Requested size: 252.93312pt x 216.80798pt.
 
 
@@ -850,20 +835,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.56 \subsubsection
+l.57 \subsubsection
                    {BLE Architecture}pdfTeX warning (ext4): destination with th
 e same identifier (name{figure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.56 \subsubsection
+l.57 \subsubsection
                    {BLE Architecture} <./images/broadcast_topology.png> <./imag
 es/connected_topology.png>]
-<images/ble_architecture.png, id=542, 1366.10374pt x 1080.035pt>
+<images/ble_architecture.png, id=562, 1366.10374pt x 1080.035pt>
 File: images/ble_architecture.png Graphic file (type png)
 
 <use images/ble_architecture.png>
-Package pdftex.def Info: images/ble_architecture.png used on input line 67.
+Package pdftex.def Info: images/ble_architecture.png used on input line 68.
 (pdftex.def)             Requested size: 273.21591pt x 216.00317pt.
 
 
@@ -877,14 +862,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.75 	\item \textbf
+l.76 	\item \textbf
                    {Dual IC with connectivity device}: One IC runs the appli...
  <./images/mixed_topology.png>]
-<images/chip_count.png, id=552, 1556.81625pt x 704.6325pt>
+<images/chip_count.png, id=573, 1556.81625pt x 704.6325pt>
 File: images/chip_count.png Graphic file (type png)
 
 <use images/chip_count.png>
-Package pdftex.def Info: images/chip_count.png used on input line 79.
+Package pdftex.def Info: images/chip_count.png used on input line 80.
 (pdftex.def)             Requested size: 311.35774pt x 140.924pt.
 
 
@@ -898,21 +883,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 	\item \textbf
+l.88 	\item \textbf
                    {The Application Layer}pdfTeX warning (ext4): destination wi
 th the same identifier (name{figure.3.6}) has been already used, duplicate igno
 red
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 	\item \textbf
+l.88 	\item \textbf
                    {The Application Layer} <./images/ble_architecture.png> <./i
 mages/chip_count.png>]
-<images/physical_channel.png, id=561, 1556.81625pt x 474.77374pt>
+<images/physical_channel.png, id=582, 1556.81625pt x 474.77374pt>
 File: images/physical_channel.png Graphic file (type png)
 
 <use images/physical_channel.png>
-Package pdftex.def Info: images/physical_channel.png used on input line 99.
+Package pdftex.def Info: images/physical_channel.png used on input line 100.
 (pdftex.def)             Requested size: 467.04848pt x 142.43321pt.
 
 
@@ -926,34 +911,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.108 	\item \textbf
+l.109 	\item \textbf
                      {Master}: A device that initiates a connection and mana...
  <./images/physical_channel.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/advertising_scanning.png, id=574, 1528.71124pt x 741.77126pt>
+<images/advertising_scanning.png, id=594, 1528.71124pt x 741.77126pt>
 File: images/advertising_scanning.png Graphic file (type png)
 
 <use images/advertising_scanning.png>
-Package pdftex.def Info: images/advertising_scanning.png used on input line 128
+Package pdftex.def Info: images/advertising_scanning.png used on input line 129
 .
 (pdftex.def)             Requested size: 305.73683pt x 148.35162pt.
 
-<images/advertising_packet_types.png, id=575, 697.60625pt x 164.615pt>
+<images/advertising_packet_types.png, id=595, 697.60625pt x 164.615pt>
 File: images/advertising_packet_types.png Graphic file (type png)
 
 <use images/advertising_packet_types.png>
 Package pdftex.def Info: images/advertising_packet_types.png used on input line
- 134.
+ 135.
 (pdftex.def)             Requested size: 348.80226pt x 82.3073pt.
 
-<images/connection_event.png, id=576, 1325.95375pt x 564.1075pt>
+<images/connection_event.png, id=596, 1325.95375pt x 564.1075pt>
 File: images/connection_event.png Graphic file (type png)
 
 <use images/connection_event.png>
-Package pdftex.def Info: images/connection_event.png used on input line 141.
+Package pdftex.def Info: images/connection_event.png used on input line 142.
 (pdftex.def)             Requested size: 464.09077pt x 197.44057pt.
 
 
@@ -974,13 +959,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.158 \end{itemize}
+l.159 \end{itemize}
                    pdfTeX warning (ext4): destination with the same identifier 
 (name{figure.3.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.158 \end{itemize}
+l.159 \end{itemize}
                     <./images/advertising_scanning.png> <./images/advertising_p
 acket_types.png>]
 
@@ -994,7 +979,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.171 \subparagraph
+l.172 \subparagraph
                    {SM Security Procedures} <./images/connection_event.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1009,11 +994,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <images/gatt_server.png, id=642, 856.19875pt x 1199.48125pt>
+[22] <images/gatt_server.png, id=663, 856.19875pt x 1199.48125pt>
 File: images/gatt_server.png Graphic file (type png)
 
 <use images/gatt_server.png>
-Package pdftex.def Info: images/gatt_server.png used on input line 231.
+Package pdftex.def Info: images/gatt_server.png used on input line 232.
 (pdftex.def)             Requested size: 171.23671pt x 239.892pt.
 
 
@@ -1027,15 +1012,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.242 \subparagraph
-                   {GATT operations} <./images/gatt_server.png>])
-(./input/sections/assumptions_and_dependencies.tex
-(./input/sections/subsections/bluez_the_official_linux_bluetooth_stack.tex
-<images/bluez_intro.png, id=656, 273.02pt x 185.69376pt>
+l.243 \subparagraph
+                   {GATT operations} <./images/gatt_server.png>]
+<images/bluez_intro.png, id=676, 273.02pt x 185.69376pt>
 File: images/bluez_intro.png Graphic file (type png)
 
 <use images/bluez_intro.png>
-Package pdftex.def Info: images/bluez_intro.png used on input line 5.
+Package pdftex.def Info: images/bluez_intro.png used on input line 276.
 (pdftex.def)             Requested size: 252.9478pt x 216.81596pt.
 
 
@@ -1056,23 +1039,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.14 	\item T
-             he controller <./images/bluez_intro.png>]
-<images/bluetooth_stack.png, id=673, 400.49625pt x 369.38pt>
+l.285 	\item T
+              he controller <./images/bluez_intro.png>]
+<images/bluetooth_stack.png, id=693, 400.49625pt x 369.38pt>
 File: images/bluetooth_stack.png Graphic file (type png)
 
 <use images/bluetooth_stack.png>
-Package pdftex.def Info: images/bluetooth_stack.png used on input line 21.
+Package pdftex.def Info: images/bluetooth_stack.png used on input line 292.
 (pdftex.def)             Requested size: 200.24763pt x 184.68954pt.
 
-<images/kernel_userspace.png, id=674, 473.77pt x 260.975pt>
+<images/kernel_userspace.png, id=694, 473.77pt x 260.975pt>
 File: images/kernel_userspace.png Graphic file (type png)
 
 <use images/kernel_userspace.png>
-Package pdftex.def Info: images/kernel_userspace.png used on input line 27.
+Package pdftex.def Info: images/kernel_userspace.png used on input line 298.
 (pdftex.def)             Requested size: 252.94034pt x 216.81229pt.
 
-Overfull \hbox (32.06671pt too wide) in paragraph at lines 42--43
+Overfull \hbox (32.06671pt too wide) in paragraph at lines 313--314
 \OT1/cmr/m/n/12 The source for the user-space side of Blue can be ne ob-tained 
 from \OT1/cmr/bx/n/12 http://www.bluez.org/download/\OT1/cmr/m/n/12 .
  []
@@ -1088,20 +1071,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.47 		\item D
-              -Bus interfaces for UI and other subsystems <./images/bluetooth_s
-tack.png (PNG copy)>]
+l.318 		\item D
+               -Bus interfaces for UI and other subsystems <./images/bluetooth_
+stack.png (PNG copy)>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
-<images/whole_bluez.png, id=682, 1071.00125pt x 508.90125pt>
+<images/whole_bluez.png, id=702, 1071.00125pt x 508.90125pt>
 File: images/whole_bluez.png Graphic file (type png)
 
 <use images/whole_bluez.png>
-Package pdftex.def Info: images/whole_bluez.png used on input line 67.
+Package pdftex.def Info: images/whole_bluez.png used on input line 338.
 (pdftex.def)             Requested size: 252.94366pt x 216.81209pt.
-) (./input/sections/subsections/bluenrg.tex
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1113,8 +1096,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1 \subsection
-               {BlueNRG} <./images/kernel_userspace.png (PNG copy)>]
+l.341 \subsection
+                 {BlueNRG} <./images/kernel_userspace.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1126,13 +1109,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.10 	\item S
-             M: privacy, authentication and authorization <./images/whole_bluez
-.png (PNG copy)>] <images/bluenrg_spi.png, id=691, 548.0475pt x 573.14125pt>
+l.350 	\item S
+              M: privacy, authentication and authorization <./images/whole_blue
+z.png (PNG copy)>] <images/bluenrg_spi.png, id=712, 548.0475pt x 573.14125pt>
 File: images/bluenrg_spi.png Graphic file (type png)
 
 <use images/bluenrg_spi.png>
-Package pdftex.def Info: images/bluenrg_spi.png used on input line 21.
+Package pdftex.def Info: images/bluenrg_spi.png used on input line 361.
 (pdftex.def)             Requested size: 252.94952pt x 216.8077pt.
 
 
@@ -1146,7 +1129,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.122 \begin{itemize}
+l.462 \begin{itemize}
                       <./images/bluenrg_spi.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1159,13 +1142,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.126 \end{itemize}
+l.466 \end{itemize}
                    pdfTeX warning (ext4): destination with the same identifier 
 (name{table.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.126 \end{itemize}
+l.466 \end{itemize}
                    ]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1178,16 +1161,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.163 		\item R
+l.503 		\item R
                eceive Radio mode]
-<images/operating_modes.png, id=705, 556.0775pt x 380.42125pt>
+<images/operating_modes.png, id=726, 556.0775pt x 380.42125pt>
 File: images/operating_modes.png Graphic file (type png)
 
 <use images/operating_modes.png>
-Package pdftex.def Info: images/operating_modes.png used on input line 175.
+Package pdftex.def Info: images/operating_modes.png used on input line 515.
 (pdftex.def)             Requested size: 252.94777pt x 216.81332pt.
-)) (./input/sections/product_perspective.tex)
-(./input/sections/flow_diagram.tex
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1199,15 +1181,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1 \section
-            {Flow Diagram}]
-<images/flow_chart.png, id=711, 597.23125pt x 526.96875pt>
+l.546 \section
+              {Flow Diagram}]
+<images/flow_chart.png, id=731, 597.23125pt x 526.96875pt>
 File: images/flow_chart.png Graphic file (type png)
 
 <use images/flow_chart.png>
-Package pdftex.def Info: images/flow_chart.png used on input line 4.
+Package pdftex.def Info: images/flow_chart.png used on input line 549.
 (pdftex.def)             Requested size: 298.61488pt x 263.48372pt.
-))
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1219,7 +1201,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.79 	\newpage
+l.76 	\newpage
                <./images/operating_modes.png>] (./input/chapterFour.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1235,7 +1217,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 l.1 \chapter
             {Development and Implementation} <./images/flow_chart.png>]
 Chapter 4.
-(./input/sections/the_linux_kernel.tex
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
 Missing character: There is no Â in font cmr12!
@@ -1256,7 +1237,7 @@ Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
- [35
+[35
 
 ]
 Missing character: There is no â in font cmr12!
@@ -1321,9 +1302,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39]) (./input/sections/the_c_programming_language.tex)
-(./input/sections/development_boards.tex
-(./input/sections/subsections/raspberry_pi.tex
+[39]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1336,27 +1315,23 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ² in font cmr12!
- <images/raspberry_pi.png, id=745, 1027.84pt x 1027.84pt>
 File: images/raspberry_pi.png Graphic file (type png)
-
-<use images/raspberry_pi.png>
-Package pdftex.def Info: images/raspberry_pi.png used on input line 8.
+ <use images/raspberry_pi.png>
+Package pdftex.def Info: images/raspberry_pi.png used on input line 73.
 (pdftex.def)             Requested size: 252.94438pt x 216.80946pt.
-)
-(./input/sections/subsections/beaglebone_black.tex
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41] <images/beaglebone_black.png, id=751, 457.71pt x 412.54124pt>
+[41]
 File: images/beaglebone_black.png Graphic file (type png)
-
-<use images/beaglebone_black.png>
-Package pdftex.def Info: images/beaglebone_black.png used on input line 6.
+ <use images/beaglebone_black.png>
+Package pdftex.def Info: images/beaglebone_black.png used on input line 81.
 (pdftex.def)             Requested size: 252.94254pt x 216.81401pt.
-)) (./input/sections/tools_used.tex
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1368,13 +1343,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2 \subsection
-               {Buildroot} <./images/raspberry_pi.png>]
-<images/buildroot.png, id=756, 668.4975pt x 462.72874pt>
+l.85 \subsection
+                {Buildroot}]
 File: images/buildroot.png Graphic file (type png)
-
-<use images/buildroot.png>
-Package pdftex.def Info: images/buildroot.png used on input line 9.
+ <use images/buildroot.png>
+Package pdftex.def Info: images/buildroot.png used on input line 92.
 (pdftex.def)             Requested size: 252.94023pt x 216.81177pt.
 
 
@@ -1388,19 +1361,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.12 \subsection
-                {Cscope} <./images/beaglebone_black.png>]
+l.95 \subsection
+                {Cscope}]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/cscope.png, id=761, 540.16237pt x 409.0333pt>
+<images/cscope.png, id=778, 540.16237pt x 409.0333pt>
 File: images/cscope.png Graphic file (type png)
  <use images/cscope.png>
-Package pdftex.def Info: images/cscope.png used on input line 21.
+Package pdftex.def Info: images/cscope.png used on input line 104.
 (pdftex.def)             Requested size: 270.08052pt x 204.51614pt.
-)
-(./input/sections/implementation.tex
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1412,8 +1384,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1 \section
-            {Implementation} <./images/buildroot.png>]
+l.107 \section
+              {Testing}]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1425,28 +1397,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.7 	\end{center}
-                  <./images/cscope.png>]
-<images/menu_implementation.png, id=770, 716.6775pt x 423.5825pt>
-File: images/menu_implementation.png Graphic file (type png)
+l.114 		\item T
+               his command should return the following output: <./images/cscope
+.png>] <images/lestates.png, id=788, 732.48656pt x 484.05844pt>
+File: images/lestates.png Graphic file (type png)
 
-<use images/menu_implementation.png>
-Package pdftex.def Info: images/menu_implementation.png used on input line 11.
-(pdftex.def)             Requested size: 252.94052pt x 216.80627pt.
+<use images/lestates.png>
+Package pdftex.def Info: images/lestates.png used on input line 117.
+(pdftex.def)             Requested size: 366.24237pt x 242.02863pt.
 
-<images/dts_implementation.png, id=771, 522.95375pt x 322.20375pt>
-File: images/dts_implementation.png Graphic file (type png)
-
-<use images/dts_implementation.png>
-Package pdftex.def Info: images/dts_implementation.png used on input line 17.
-(pdftex.def)             Requested size: 252.94601pt x 216.81934pt.
-
-<images/rpi_connections.jpg, id=772, 4175.6pt x 3131.7pt>
-File: images/rpi_connections.jpg Graphic file (type jpg)
-
-<use images/rpi_connections.jpg>
-Package pdftex.def Info: images/rpi_connections.jpg used on input line 31.
-(pdftex.def)             Requested size: 252.88263pt x 216.80432pt.
+<images/lescan.png, id=789, 316.18124pt x 140.02313pt>
+File: images/lescan.png Graphic file (type png)
+ <use images/lescan.png>
+Package pdftex.def Info: images/lescan.png used on input line 128.
+(pdftex.def)             Requested size: 158.09023pt x 70.01138pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1459,94 +1423,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.37 	\end{center}
-                   <./images/menu_implementation.png>]
-<images/adapter_check.png, id=782, 648.4225pt x 111.41624pt>
-File: images/adapter_check.png Graphic file (type png)
-
-<use images/adapter_check.png>
-Package pdftex.def Info: images/adapter_check.png used on input line 41.
-(pdftex.def)             Requested size: 453.89265pt x 77.99083pt.
-) (./input/sections/testing.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
-}) has been already used, duplicate ignored
+l.135 		\item R
+               ead profiles:\\pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.4.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.4 \subsection
-               {Checking to see if BLE gets enabled} <./images/dts_implementati
-on.png>] <images/lestates.png, id=788, 732.48656pt x 484.05844pt>
-File: images/lestates.png Graphic file (type png)
-
-<use images/lestates.png>
-Package pdftex.def Info: images/lestates.png used on input line 11.
-(pdftex.def)             Requested size: 366.24237pt x 242.02863pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.15 \subsection
-                {BLE gatttool interaction}pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.4.8}) has been already used, duplicate igno
-red
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.15 \subsection
-                {BLE gatttool interaction} <./images/rpi_connections.jpg> <./im
-ages/adapter_check.png>]
-<images/lescan.png, id=795, 316.18124pt x 140.02313pt>
-File: images/lescan.png Graphic file (type png)
- <use images/lescan.png>
-Package pdftex.def Info: images/lescan.png used on input line 22.
-(pdftex.def)             Requested size: 158.09023pt x 70.01138pt.
-
-<images/gatttool1.png, id=796, 663.22781pt x 624.08156pt>
+l.135 		\item R
+               ead profiles:\\ <./images/lestates.png> <./images/lescan.png>]
+<images/gatttool1.png, id=800, 663.22781pt x 624.08156pt>
 File: images/gatttool1.png Graphic file (type png)
 
 <use images/gatttool1.png>
-Package pdftex.def Info: images/gatttool1.png used on input line 35.
+Package pdftex.def Info: images/gatttool1.png used on input line 141.
 (pdftex.def)             Requested size: 331.6131pt x 312.04001pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[49pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.38 		\item R
-              ead the value of a characterstic:\\pdfTeX warning (ext4): destina
-tion with the same identifier (name{figure.4.10}) has been already used, duplic
-ate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.38 		\item R
-              ead the value of a characterstic:\\ <./images/lestates.png> <./im
-ages/lescan.png>] <images/gatttool2.png, id=807, 523.20468pt x 129.48375pt>
+<images/gatttool2.png, id=801, 523.20468pt x 129.48375pt>
 File: images/gatttool2.png Graphic file (type png)
 
 <use images/gatttool2.png>
-Package pdftex.def Info: images/gatttool2.png used on input line 44.
+Package pdftex.def Info: images/gatttool2.png used on input line 150.
 (pdftex.def)             Requested size: 261.6017pt x 64.7417pt.
 
 
@@ -1555,102 +1451,107 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-1}) has been already used, duplicate ignored
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.51 	\end{enumerate}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.4.12}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.51 	\end{enumerate}
-                      <./images/gatttool1.png> <./images/gatttool2.png>]
-<images/beacon_read.png, id=819, 551.81157pt x 213.04594pt>
+l.158 \subsection
+                 {Reading Beacons using BLE} <./images/gatttool1.png>]
+<images/beacon_read.png, id=815, 551.81157pt x 213.04594pt>
 File: images/beacon_read.png Graphic file (type png)
 
 <use images/beacon_read.png>
-Package pdftex.def Info: images/beacon_read.png used on input line 64.
+Package pdftex.def Info: images/beacon_read.png used on input line 170.
 (pdftex.def)             Requested size: 275.9051pt x 106.5227pt.
 
-<images/advertising_beacons.png, id=820, 580.41844pt x 243.15843pt>
+<images/advertising_beacons.png, id=816, 580.41844pt x 243.15843pt>
 File: images/advertising_beacons.png Graphic file (type png)
 
 <use images/advertising_beacons.png>
-Package pdftex.def Info: images/advertising_beacons.png used on input line 78.
+Package pdftex.def Info: images/advertising_beacons.png used on input line 184.
+
 (pdftex.def)             Requested size: 290.20851pt x 121.57892pt.
-))
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-3}) has been already used, duplicate ignored
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.82 	\newpage
-               <./images/beacon_read.png>] (./input/chapterFive.tex
+l.79 	\newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.4.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.79 	\newpage
+               <./images/gatttool2.png> <./images/beacon_read.png>]
+(./input/chapterFive.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-4}) has been already used, duplicate ignored
+[49pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             {Conclusion and Future Scope} <./images/advertising_beacons.png>]
 Chapter 5.
-(./input/sections/conclusion.tex) (./input/sections/future_scope.tex [53
+[50
 
-]))
+])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54] (./input/references.tex) AED: lastpage setting LastPage [55
+[51] (./input/references.tex) AED: lastpage setting LastPage [52
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
 
-(../output/report//report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
+(./synopsis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package rerunfilecheck Info: File `synopsis.out' has not changed.
+(rerunfilecheck)             Checksum: 15F3C91128B520F2E42B7E7D36A815F7;4864.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 8205 strings out of 493304
- 118419 string characters out of 6139872
- 323858 words of memory out of 5000000
- 11137 multiletter control sequences out of 15000+600000
+ 8115 strings out of 493304
+ 114990 string characters out of 6139872
+ 323886 words of memory out of 5000000
+ 11118 multiletter control sequences out of 15000+600000
  14275 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,13n,43p,1510b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti12.pfb>
-Output written on ../output/report//report.pdf (63 pages, 3466811 bytes).
+ 36i,13n,43p,1478b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.0.4} has been referenced but does not exis
+t, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb>
+Output written on synopsis.pdf (62 pages, 2272544 bytes).
 PDF statistics:
- 949 PDF objects out of 1000 (max. 8388607)
- 809 compressed objects within 9 object streams
- 279 named destinations out of 1000 (max. 500000)
- 721 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 945 PDF objects out of 1000 (max. 8388607)
+ 810 compressed objects within 9 object streams
+ 278 named destinations out of 1000 (max. 500000)
+ 709 words of extra memory for PDF output out of 10000 (max. 10000000)
 
