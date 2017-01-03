@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 15:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.6)  3 JAN 2017 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -367,7 +367,29 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen136
 \Gm@dimlist=\toks24
 )
-Excluding 'screen' comment. (../output/synopsis//synopsis.aux)
+Excluding 'screen' comment. (../output/synopsis//synopsis.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `synopsis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -384,8 +406,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count116
 \scratchdimen=\dimen137
@@ -468,7 +489,7 @@ LaTeX Info: Redefining \nameref on input line 38.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./input/syn_titlepage.tex) Excluding 'screen' comment.
-<images/gne.png, id=56, 618.31pt x 678.535pt>
+<images/gne.png, id=59, 618.31pt x 678.535pt>
 File: images/gne.png Graphic file (type png)
  <use images/gne.png>
 Package pdftex.def Info: images/gne.png used on input line 46.
@@ -500,7 +521,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] (./input/syn_introduction.tex
 Chapter 1.
-<images/beaglebone_black.png, id=94, 457.71pt x 412.54124pt>
+<images/beaglebone_black.png, id=98, 457.71pt x 412.54124pt>
 File: images/beaglebone_black.png Graphic file (type png)
 
 <use images/beaglebone_black.png>
@@ -514,14 +535,14 @@ l.14 \subsection
                 {Raspberry Pi} Raspberry Pi is a series of credit card-sized...
 [1
 
-] <images/raspberry_pi.png, id=99, 1027.84pt x 1027.84pt>
+] <images/raspberry_pi.png, id=103, 1027.84pt x 1027.84pt>
 File: images/raspberry_pi.png Graphic file (type png)
 
 <use images/raspberry_pi.png>
 Package pdftex.def Info: images/raspberry_pi.png used on input line 17.
 (pdftex.def)             Requested size: 252.94438pt x 216.80946pt.
 
-<images/buildroot.png, id=100, 668.4975pt x 462.72874pt>
+<images/buildroot.png, id=104, 668.4975pt x 462.72874pt>
 File: images/buildroot.png Graphic file (type png)
 
 <use images/buildroot.png>
@@ -581,25 +602,87 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ) [6
 
 ]
-(./input/references.tex) AED: lastpage setting LastPage [7
+(./input/references.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/12 "BlueNRG Datasheet", st.com, 2016. [On-line]. Avail-able:
+ []
 
-]
+
+Underfull \hbox (badness 3179) in paragraph at lines 13--14
+\OT1/cmr/m/n/12 http://www.st.com/en/wireless-connectivity/bluenrg.html#2016071
+4. [Ac-cessed: 17-
+ []
+
+
+Overfull \hbox (14.16629pt too wide) in paragraph at lines 17--18
+[]\OT1/cmr/m/n/12 https://en.wikipedia.org/wiki/Bluetooth[]low[]energy#/media/F
+ile:Heckert[]GNU[]white.svg.
+ []
+
+) AED: lastpage setting LastPage [7
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.76 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.76 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.76 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.76 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.76 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.76 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.76 \end{document}
+                   ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
-
-(../output/synopsis//synopsis.aux)
+ (../output/synopsis//synopsis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `synopsis.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 7659 strings out of 493304
- 108011 string characters out of 6139870
- 290830 words of memory out of 5000000
- 10939 multiletter control sequences out of 15000+600000
- 14584 words of font info for 54 fonts, out of 8000000 for 9000
+ 7652 strings out of 493304
+ 107865 string characters out of 6139872
+ 290748 words of memory out of 5000000
+ 10936 multiletter control sequences out of 15000+600000
+ 14237 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  36i,11n,43p,856b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
@@ -609,12 +692,11 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti12.pfb>
-Output written on ../output/synopsis//synopsis.pdf (10 pages, 763406 bytes).
+ublic/amsfonts/cm/cmsy10.pfb>
+Output written on ../output/synopsis//synopsis.pdf (10 pages, 750708 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

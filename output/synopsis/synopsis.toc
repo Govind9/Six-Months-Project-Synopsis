@@ -11,4 +11,5 @@
 \contentsline {chapter}{\numberline {4}Facilities required for proposed work}{6}{chapter.4}
 \contentsline {section}{\numberline {4.1}Hardware Requirements}{6}{section.4.1}
 \contentsline {section}{\numberline {4.2}Software Requirements}{6}{section.4.2}
+\contentsline {chapter}{BIBLIOGRAPHY}{7}{section.4.2}
 \contentsfinish 

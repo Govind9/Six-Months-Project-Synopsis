@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.28)  9 DEC 2016 14:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.6)  3 JAN 2017 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -367,7 +367,29 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen136
 \Gm@dimlist=\toks24
 )
-Excluding 'screen' comment. (../output/midterm_report//mid_report.aux)
+Excluding 'screen' comment. (../output/midterm_report//mid_report.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `mid_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -384,8 +406,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count116
 \scratchdimen=\dimen137
@@ -469,7 +490,7 @@ LaTeX Info: Redefining \nameref on input line 38.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./input/titlepage.tex) Excluding 'screen' comment.
-<images/gne.png, id=188, 618.31pt x 678.535pt>
+<images/gne.png, id=192, 618.31pt x 678.535pt>
 File: images/gne.png Graphic file (type png)
  <use images/gne.png>
 Package pdftex.def Info: images/gne.png used on input line 46.
@@ -561,7 +582,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] (./input/chapterOne.tex
 Chapter 1.
-<images/company.jpg, id=318, 515.9275pt x 398.48875pt>
+<images/company.jpg, id=322, 515.9275pt x 398.48875pt>
 File: images/company.jpg Graphic file (type jpg)
 
 <use images/company.jpg>
@@ -599,7 +620,7 @@ Chapter 2.
 (./input/sections/overview.tex) (./input/sections/existing_systems.tex [3
 
 ]
-<images/bluefritz_usb.png, id=333, 137.7647pt x 96.36pt>
+<images/bluefritz_usb.png, id=337, 137.7647pt x 96.36pt>
 File: images/bluefritz_usb.png Graphic file (type png)
 
 <use images/bluefritz_usb.png>
@@ -614,7 +635,7 @@ Missing character: There is no   in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
 
-<images/qualcomm_atheros.png, id=334, 374.39874pt x 173.64874pt>
+<images/qualcomm_atheros.png, id=338, 374.39874pt x 173.64874pt>
 File: images/qualcomm_atheros.png Graphic file (type png)
 
 <use images/qualcomm_atheros.png>
@@ -641,7 +662,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/intel_bluetooth.png, id=340, 301.125pt x 206.7725pt>
+<images/intel_bluetooth.png, id=344, 301.125pt x 206.7725pt>
 File: images/intel_bluetooth.png Graphic file (type png)
 
 <use images/intel_bluetooth.png>
@@ -665,7 +686,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/broadcom_blutonium.png, id=346, 401.5pt x 401.5pt>
+<images/broadcom_blutonium.png, id=350, 401.5pt x 401.5pt>
 File: images/broadcom_blutonium.png Graphic file (type png)
 
 <use images/broadcom_blutonium.png>
@@ -696,7 +717,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/marvell_bluetooth.png, id=352, 321.2pt x 262.9825pt>
+<images/marvell_bluetooth.png, id=356, 321.2pt x 262.9825pt>
 File: images/marvell_bluetooth.png Graphic file (type png)
 
 <use images/marvell_bluetooth.png>
@@ -709,7 +730,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/3com_bluetooth.png, id=353, 154.176pt x 108.6459pt>
+<images/3com_bluetooth.png, id=357, 154.176pt x 108.6459pt>
 File: images/3com_bluetooth.png Graphic file (type png)
 
 <use images/3com_bluetooth.png>
@@ -777,7 +798,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [11] (./input/mid_chapterThree.tex
 Chapter 3.
 (./input/sections/product_functions.tex
-<images/device_configuration.png, id=375, 512.91624pt x 200.75pt>
+<images/device_configuration.png, id=379, 512.91624pt x 200.75pt>
 File: images/device_configuration.png Graphic file (type png)
 
 <use images/device_configuration.png>
@@ -800,14 +821,14 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/broadcast_topology.png, id=380, 1299.85625pt x 659.46375pt>
+<images/broadcast_topology.png, id=384, 1299.85625pt x 659.46375pt>
 File: images/broadcast_topology.png Graphic file (type png)
 
 <use images/broadcast_topology.png>
 Package pdftex.def Info: images/broadcast_topology.png used on input line 37.
 (pdftex.def)             Requested size: 252.94534pt x 216.80864pt.
 
-<images/connected_topology.png, id=381, 1303.87125pt x 658.46pt>
+<images/connected_topology.png, id=385, 1303.87125pt x 658.46pt>
 File: images/connected_topology.png Graphic file (type png)
 
 <use images/connected_topology.png>
@@ -820,7 +841,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13] <images/mixed_topology.png, id=394, 1482.53876pt x 772.8875pt>
+[13] <images/mixed_topology.png, id=398, 1482.53876pt x 772.8875pt>
 File: images/mixed_topology.png Graphic file (type png)
 
 <use images/mixed_topology.png>
@@ -847,7 +868,7 @@ e same identifier (name{figure.3.3}) has been already used, duplicate ignored
 l.56 \subsubsection
                    {BLE Architecture} <./images/broadcast_topology.png> <./imag
 es/connected_topology.png>]
-<images/ble_architecture.png, id=402, 1366.10374pt x 1080.035pt>
+<images/ble_architecture.png, id=406, 1366.10374pt x 1080.035pt>
 File: images/ble_architecture.png Graphic file (type png)
 
 <use images/ble_architecture.png>
@@ -868,7 +889,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 l.75 	\item \textbf
                    {Dual IC with connectivity device}: One IC runs the appli...
  <./images/mixed_topology.png>]
-<images/chip_count.png, id=412, 1556.81625pt x 704.6325pt>
+<images/chip_count.png, id=416, 1556.81625pt x 704.6325pt>
 File: images/chip_count.png Graphic file (type png)
 
 <use images/chip_count.png>
@@ -896,7 +917,7 @@ red
 l.87 	\item \textbf
                    {The Application Layer} <./images/ble_architecture.png> <./i
 mages/chip_count.png>]
-<images/physical_channel.png, id=421, 1556.81625pt x 474.77374pt>
+<images/physical_channel.png, id=425, 1556.81625pt x 474.77374pt>
 File: images/physical_channel.png Graphic file (type png)
 
 <use images/physical_channel.png>
@@ -921,7 +942,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<images/advertising_scanning.png, id=433, 1528.71124pt x 741.77126pt>
+<images/advertising_scanning.png, id=437, 1528.71124pt x 741.77126pt>
 File: images/advertising_scanning.png Graphic file (type png)
 
 <use images/advertising_scanning.png>
@@ -929,7 +950,7 @@ Package pdftex.def Info: images/advertising_scanning.png used on input line 128
 .
 (pdftex.def)             Requested size: 305.73683pt x 148.35162pt.
 
-<images/advertising_packet_types.png, id=434, 697.60625pt x 164.615pt>
+<images/advertising_packet_types.png, id=438, 697.60625pt x 164.615pt>
 File: images/advertising_packet_types.png Graphic file (type png)
 
 <use images/advertising_packet_types.png>
@@ -937,7 +958,7 @@ Package pdftex.def Info: images/advertising_packet_types.png used on input line
  134.
 (pdftex.def)             Requested size: 348.80226pt x 82.3073pt.
 
-<images/connection_event.png, id=435, 1325.95375pt x 564.1075pt>
+<images/connection_event.png, id=439, 1325.95375pt x 564.1075pt>
 File: images/connection_event.png Graphic file (type png)
 
 <use images/connection_event.png>
@@ -997,7 +1018,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <images/gatt_server.png, id=502, 856.19875pt x 1199.48125pt>
+[22] <images/gatt_server.png, id=506, 856.19875pt x 1199.48125pt>
 File: images/gatt_server.png Graphic file (type png)
 
 <use images/gatt_server.png>
@@ -1019,7 +1040,7 @@ l.242 \subparagraph
                    {GATT operations} <./images/gatt_server.png>])
 (./input/sections/mid_assumptions_and_dependencies.tex
 (./input/sections/subsections/bluez_the_official_linux_bluetooth_stack.tex
-<images/bluez_intro.png, id=515, 273.02pt x 185.69376pt>
+<images/bluez_intro.png, id=519, 273.02pt x 185.69376pt>
 File: images/bluez_intro.png Graphic file (type png)
 
 <use images/bluez_intro.png>
@@ -1046,14 +1067,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.17 \end{enumerate}
                      <./images/bluez_intro.png>]
-<images/bluetooth_stack.png, id=535, 400.49625pt x 369.38pt>
+<images/bluetooth_stack.png, id=539, 400.49625pt x 369.38pt>
 File: images/bluetooth_stack.png Graphic file (type png)
 
 <use images/bluetooth_stack.png>
 Package pdftex.def Info: images/bluetooth_stack.png used on input line 21.
 (pdftex.def)             Requested size: 200.24763pt x 184.68954pt.
 
-<images/kernel_userspace.png, id=536, 473.77pt x 260.975pt>
+<images/kernel_userspace.png, id=540, 473.77pt x 260.975pt>
 File: images/kernel_userspace.png Graphic file (type png)
 
 <use images/kernel_userspace.png>
@@ -1089,7 +1110,7 @@ from \OT1/cmr/bx/n/12 http://www.bluez.org/download/\OT1/cmr/m/n/12 .
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-<images/whole_bluez.png, id=542, 1071.00125pt x 508.90125pt>
+<images/whole_bluez.png, id=546, 1071.00125pt x 508.90125pt>
 File: images/whole_bluez.png Graphic file (type png)
 
 <use images/whole_bluez.png>
@@ -1212,14 +1233,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34] <images/beaglebone_black.png, id=577, 457.71pt x 412.54124pt>
+[34] <images/beaglebone_black.png, id=581, 457.71pt x 412.54124pt>
 File: images/beaglebone_black.png Graphic file (type png)
 
 <use images/beaglebone_black.png>
 Package pdftex.def Info: images/beaglebone_black.png used on input line 6.
 (pdftex.def)             Requested size: 252.94254pt x 216.81401pt.
 )) (./input/sections/tools_used.tex
-<images/buildroot.png, id=578, 668.4975pt x 462.72874pt>
+<images/buildroot.png, id=582, 668.4975pt x 462.72874pt>
 File: images/buildroot.png Graphic file (type png)
 
 <use images/buildroot.png>
@@ -1249,7 +1270,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- <images/cscope.png, id=587, 540.16237pt x 409.0333pt>
+ <images/cscope.png, id=591, 540.16237pt x 409.0333pt>
 File: images/cscope.png Graphic file (type png)
 
 <use images/cscope.png>
@@ -1281,10 +1302,57 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.80 	\newpage
-               <./images/cscope.png>] (./input/references.tex)
-AED: lastpage setting LastPage [39
+               <./images/cscope.png>] (./input/references.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+[]\OT1/cmr/m/n/12 https://en.wikipedia.org/wiki/Bluetooth[]low[]energy#/media/F
+ile:Heckert[]GNU[]white.svg.
+ []
 
-]
+) AED: lastpage setting LastPage [39
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
+een already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.86 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.86 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.86 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.86 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.86 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.86 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.86 \end{document}
+                   ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (../output/midterm_report//mid_report.aux)
@@ -1292,13 +1360,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `mid_report.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 8007 strings out of 493304
- 114971 string characters out of 6139870
- 294857 words of memory out of 5000000
- 11061 multiletter control sequences out of 15000+600000
+ 8002 strings out of 493304
+ 114840 string characters out of 6139872
+ 294775 words of memory out of 5000000
+ 11059 multiletter control sequences out of 15000+600000
  14275 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  36i,11n,43p,1514b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1310,11 +1382,11 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb>
-Output written on ../output/midterm_report//mid_report.pdf (45 pages, 1747433 b
+Output written on ../output/midterm_report//mid_report.pdf (45 pages, 1748205 b
 ytes).
 PDF statistics:
  678 PDF objects out of 1000 (max. 8388607)
  579 compressed objects within 6 object streams
- 199 named destinations out of 1000 (max. 500000)
- 499 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 196 named destinations out of 1000 (max. 500000)
+ 507 words of extra memory for PDF output out of 10000 (max. 10000000)
 
